@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>ESPHome documentation - Fri3d 2024</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Fri3d 2024</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Fri3d Camp 2024 Badge</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Arduino</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../arduino/" class="dropdown-item">Arduino documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Bipes</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../bipes/" class="dropdown-item">BIPES documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Esphome</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">ESPHome documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Micropython</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../micropython/" class="dropdown-item">MicroPython documentation</a>
+</li>
+                                    
+<li>
+    <a href="../micropython/lvgl/" class="dropdown-item">LVGL</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Noisycricket</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../noisycricket/" class="dropdown-item">Noisy Cricket</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Onboarding</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../onboarding/" class="dropdown-item">Onboarding documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Platformio</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../platformio/" class="dropdown-item">PlatformIO</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../bipes/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../micropython/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#esphome-documentation" class="nav-link">ESPHome documentation</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#common-code" class="nav-link">Common code</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#display" class="nav-link">Display</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#status-light" class="nav-link">Status light</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#rgb-leds" class="nav-link">RGB leds</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#buttons" class="nav-link">Buttons</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#joystick" class="nav-link">Joystick</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#buzzer" class="nav-link">Buzzer</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#accelerometer" class="nav-link">Accelerometer</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#ir-receiver" class="nav-link">IR Receiver</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#battery-monitor" class="nav-link">Battery monitor</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#aux-power" class="nav-link">AUX power</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#sd-card" class="nav-link">SD Card</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="esphome-documentation">ESPHome documentation</h1>
+<p>This page contains reference code for each badge component. It currently assumes you have <a href="https://esphome.io/guides/getting_started_command_line">esphome</a> installed and are familiar adding a device.</p>
+<h2 id="common-code">Common code</h2>
+<pre><code>substitutions:
+  esphome_name: fri3d2024
+
+esphome:
+  name: ${esphome_name}
+
+esp32:
+  board: esp32-s3-devkitc-1
+  framework:
+    type: arduino
+</code></pre>
+<h2 id="display">Display</h2>
+<pre><code>spi:
+  clk_pin: GPIO7
+  mosi_pin: GPIO6
+
+display:
+  - platform: ili9xxx
+    model: ST7789V
+    dimensions:
+      height: 240
+      width: 296
+    transform:
+      swap_xy: true
+      mirror_x: false
+    data_rate: 80MHz
+    dc_pin: GPIO4
+    cs_pin: GPIO5
+    reset_pin: GPIO48
+    auto_clear_enabled: false
+    lambda: |-
+      it.image(0, 0, id(my_image));
+#      it.print(0, 0, id(my_font), &quot;Hello World!&quot;);
+#      it.printf(0, 15, id(my_font), TextAlign::BASELINE_LEFT, &quot;%.1f graden&quot;, id(temperature).state);
+# sensor.living_room_temperature
+#      it.line(0, 0, 50, 50);
+
+font:
+  - file: &quot;opensans.ttf&quot;
+    id: my_font
+    size: 20
+
+image:
+  - file: &quot;fri3d.png&quot;
+    id: my_image
+    type: RGB24
+</code></pre>
+<p><em>TODO</em>
+- refresh log error</p>
+<h2 id="status-light">Status light</h2>
+<pre><code>light:
+  - platform: status_led
+    name: &quot;State&quot;
+    id: &quot;state&quot;
+    pin: GPIO21
+</code></pre>
+<h2 id="rgb-leds">RGB leds</h2>
+<pre><code>light:
+  - platform: neopixelbus
+    type: GRB
+    variant: WS2812
+    pin: GPIO12
+    num_leds: 5
+    name: &quot;NeoPixel Light&quot;
+</code></pre>
+<h2 id="buttons">Buttons</h2>
+<pre><code>binary_sensor:
+  - platform: gpio
+    pin:
+      number: GPIO39
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    name: &quot;A&quot;
+  - platform: gpio
+    pin:
+      number: GPIO40
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    name: &quot;B&quot;
+  - platform: gpio
+    pin:
+      number: GPIO38
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    name: &quot;X&quot;
+  - platform: gpio
+    pin:
+      number: GPIO41
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    name: &quot;Y&quot;
+  - platform: gpio
+    pin:
+      number: GPIO45
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    name: &quot;menu&quot;
+  - platform: gpio
+    pin:
+      number: GPIO0
+      mode:
+        input: true
+        #pullup: true
+      inverted: true
+    name: &quot;start&quot;
+</code></pre>
+<h2 id="joystick">Joystick</h2>
+<pre><code>sensor:
+  - platform: adc
+    id: joystick_x  
+    name: &quot;Joystick X axis&quot;  
+    pin: GPIO01
+    internal: True
+    attenuation: auto
+    update_interval: 500ms
+
+  - platform: adc
+    id: joystick_y  
+    name: &quot;Joystick Y axis&quot;  
+    pin: GPIO03
+    internal: True
+    attenuation: 11db
+    update_interval: 500ms
+</code></pre>
+<p><em>TODO</em>
+- disable logging
+- on_xxx: left/right &amp; up/down</p>
+<h2 id="buzzer">Buzzer</h2>
+<pre><code></code></pre>
+<p><em>TODO</em>
+- test</p>
+<h2 id="accelerometer">Accelerometer</h2>
+<pre><code>i2c:
+  sda: GPIO9
+  scl: GPIO18
+  scan: true
+  id: bus_i2c
+</code></pre>
+<p><em>TODO</em>
+- contribute code &amp; test</p>
+<h2 id="ir-receiver">IR Receiver</h2>
+<pre><code>remote_receiver:
+  pin:
+    number: GPIO11
+    inverted: true
+    mode:
+      input: true
+      pullup: true
+  dump: all
+</code></pre>
+<p><em>TODO</em>
+- test</p>
+<h2 id="battery-monitor">Battery monitor</h2>
+<pre><code></code></pre>
+<p><em>TODO</em>
+- test</p>
+<h2 id="aux-power">AUX power</h2>
+<pre><code></code></pre>
+<p><em>TODO</em>
+- test</p>
+<h2 id="sd-card">SD Card</h2>
+<pre><code></code></pre>
+<p><em>TODO</em>
+- define use case</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

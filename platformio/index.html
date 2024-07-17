@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>PlatformIO - Fri3d 2024</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Fri3d 2024</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Fri3d Camp 2024 Badge</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Arduino</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../arduino/" class="dropdown-item">Arduino documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Bipes</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../bipes/" class="dropdown-item">BIPES documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Esphome</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../esphome/" class="dropdown-item">ESPHome documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Micropython</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../micropython/" class="dropdown-item">MicroPython documentation</a>
+</li>
+                                    
+<li>
+    <a href="../micropython/lvgl/" class="dropdown-item">LVGL</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Noisycricket</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../noisycricket/" class="dropdown-item">Noisy Cricket</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Onboarding</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../onboarding/" class="dropdown-item">Onboarding documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Platformio</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">PlatformIO</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../onboarding/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#platformio" class="nav-link">PlatformIO</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#visual-studio-code" class="nav-link">Visual Studio Code</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#platformio-extension" class="nav-link">PlatformIO extension</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#hello-world" class="nav-link">Hello World</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#examples-in-github" class="nav-link">Examples in GitHub</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#your-own-code-on-github" class="nav-link">Your own code on GitHub</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#your-code-in-the-fri3d-camp-repository" class="nav-link">Your code in the Fri3d Camp repository</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="platformio">PlatformIO</h1>
+<h2 id="visual-studio-code">Visual Studio Code</h2>
+<p>You can download VS Code from <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>.
+Don't worry about what other extensions you need, you can easily install them whenever you need them.</p>
+<h2 id="platformio-extension">PlatformIO extension</h2>
+<ol>
+<li>Inside Visual Studio Code, go to the extensions tab. (CTRL+SHIFT+X)</li>
+<li>In the search bar, type "platformio"</li>
+<li>Install the one with the orange alien icon</li>
+</ol>
+<p><img alt="screenshot" src="platformio.png" /></p>
+<h2 id="hello-world">Hello World</h2>
+<ol>
+<li>go to PlatformIO window (click on the alien face in the left column)</li>
+<li>Choose "New Project"<ol>
+<li>Alternatively, if you see the "PIO Home" window, you can click "+ new project" there.</li>
+</ol>
+</li>
+<li>For board, choose "esp32-s3-devkitc-1". PlatformIO will start downloading necessary libraries</li>
+<li>Open platformio.ini - you should see the following:</li>
+</ol>
+<pre><code>    [env:esp32-s3-devkitc-1]
+    platform = espressif32
+    board = esp32-s3-devkitc-1
+    framework = arduino
+</code></pre>
+<ol>
+<li>add the following lines at the bottom:</li>
+</ol>
+<pre><code>    board_build.arduino.memory_type = qio_opi 
+    board_build.partitions = default_16MB.csv
+    board_upload.flash_size = 16MB
+    monitor_speed = 115200
+    lib_deps = bodmer/TFT_eSPI@^2.5.33
+    build_flags = 
+        -DBOARD_HAS_PSRAM # N16R8V has PSRAM
+        -DARDUINO_USB_MODE=1 # necessary for serial port
+        -DARDUINO_USB_CDC_ON_BOOT=1 # necessary for serial port
+</code></pre>
+<h2 id="examples-in-github">Examples in GitHub</h2>
+<p><a href="https://github.com/Fri3dCamp/badge_2024_arduino/tree/main/examples/platformio%20basic%20examples">https://github.com/Fri3dCamp/badge_2024_arduino/tree/main/examples/platformio%20basic%20examples</a></p>
+<p>If you just want to try all examples:</p>
+<ol>
+<li>In GitHub, goto <a href="https://github.com/Fri3dCamp/badge_2024_arduino">https://github.com/Fri3dCamp/badge_2024_arduino</a></li>
+<li>Click "Fork"</li>
+<li>You now have the same repository, but in your own profile</li>
+<li>Click the green button <code>&lt;&gt; Code</code></li>
+<li>copy the URL you see in the pop-up</li>
+<li>Open the Git Bash CLI where you want to create the forked repository</li>
+<li>Type <code>git clone</code> and paste the URL from the Github repository</li>
+</ol>
+<h2 id="your-own-code-on-github">Your own code on GitHub</h2>
+<ol>
+<li>Download GIT from <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></li>
+<li>Create an account on <a href="https://github.com">https://github.com</a></li>
+<li>At the top of the screen, click "+", click "New repository"</li>
+<li>Follow the GitHub instructions to clone your repository to your local hard drive</li>
+<li>Code away!</li>
+<li>Open the Git Bash CLI in the root folder of your repository</li>
+<li><code>git add .</code></li>
+<li><code>git commit -m "cool new program"</code></li>
+<li><code>git push</code></li>
+<li>Check that your code has arrived on GitHub</li>
+</ol>
+<h2 id="your-code-in-the-fri3d-camp-repository">Your code in the Fri3d Camp repository</h2>
+<ol>
+<li>In GitHub, goto <a href="https://github.com/Fri3dCamp/badge_2024_arduino">https://github.com/Fri3dCamp/badge_2024_arduino</a></li>
+<li>Click "Fork"</li>
+<li>You now have the same repository, but in your own profile</li>
+<li>Click the green button <code>&lt;&gt; Code</code></li>
+<li>Copy the URL you see in the pop-up</li>
+<li>Open the Git Bash CLI where you want to create the forked repository</li>
+<li>Type <code>git clone</code> and paste the URL from the Github repository</li>
+</ol>
+<p>So far, the instructions are exactly the same as for downloading the examples</p>
+<ol>
+<li>In github click on <code>main</code> to create a new branch</li>
+<li>In the search bar, type a name of your choice, e.g. <code>newexample</code></li>
+<li>Click <code>create branch newexample</code> from main</li>
+<li>Open the Git Bash CLI in the root folder of your repository</li>
+<li><code>git checkout -b newexample</code></li>
+<li>Add your example</li>
+<li><code>git add .</code></li>
+<li><code>git commit -m "I created a new example"</code></li>
+<li><code>git push</code></li>
+<li>in GitHub, click <code>compare and pull request</code></li>
+<li>Add a nice description,</li>
+<li>Click <code>Create pull request</code></li>
+</ol></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

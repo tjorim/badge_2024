@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>LVGL - Fri3d 2024</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Fri3d 2024</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Fri3d Camp 2024 Badge</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Arduino</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../arduino/" class="dropdown-item">Arduino documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Bipes</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../bipes/" class="dropdown-item">BIPES documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Esphome</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../esphome/" class="dropdown-item">ESPHome documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Micropython</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../" class="dropdown-item">MicroPython documentation</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">LVGL</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Noisycricket</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../noisycricket/" class="dropdown-item">Noisy Cricket</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Onboarding</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../onboarding/" class="dropdown-item">Onboarding documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Platformio</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../platformio/" class="dropdown-item">PlatformIO</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../noisycricket/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#lvgl" class="nav-link">LVGL</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#links" class="nav-link">links</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#online-simulator" class="nav-link">online simulator</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#simulator-examples" class="nav-link">Simulator Examples</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#real-examples" class="nav-link">real examples</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="lvgl">LVGL</h1>
+<p>badge_2024_micropython is build with LVLG v9.1 included</p>
+<h2 id="links">links</h2>
+<ul>
+<li>lvgl homepage https://lvgl.io/</li>
+<li>lvgl documentation https://docs.lvgl.io/9.1/</li>
+</ul>
+<h3 id="python-examples-v84">python examples (v8.4)</h3>
+<p>Unfortunately for v9.x the python examples are not available any more<br />
+This are the main differences between v8.x and v9.x https://docs.lvgl.io/9.0/CHANGELOG.html and more specific https://docs.lvgl.io/9.0/CHANGELOG.html#general-api-changes
+- lvgl live python examples (v8.4) https://docs.lvgl.io/8.4/examples.html
+- lvgl python examples source code (v8.4) (search for *.py files) https://github.com/lvgl/lvgl/tree/v8.4.0/examples</p>
+<h2 id="online-simulator">online simulator</h2>
+<p>There is an online micropython + lvgl (v9.0) simulator available<br />
+https://sim.lvgl.io/v9.0/micropython/ports/webassembly/index.html<br />
+This is very convenient to prototype new screens</p>
+<h2 id="simulator-examples">Simulator Examples</h2>
+<h3 id="button">button</h3>
+<pre><code class="language-python"># Initialize
+import display_driver
+import lvgl as lv
+disp = lv.display_get_default()
+disp.set_resolution(296,240)
+
+# Create a button with a label
+scr = lv.obj()
+
+btn = lv.button(scr)
+btn.align(lv.ALIGN.CENTER, 0, 0)
+label = lv.label(btn)
+label.set_text('Hello World!')
+
+lv.screen_load(scr)
+</code></pre>
+<h3 id="button-in-a-class-with-callback-remembering-state">button in a class with callback, remembering state</h3>
+<pre><code class="language-python">
+# Initialize
+
+import display_driver
+import lvgl as lv
+
+disp = lv.display_get_default()
+disp.set_resolution(296,240)
+
+class CounterBtn:
+    def __init__(self):
+        screen = lv.screen_active()
+
+        screen.set_style_bg_color(lv.palette_darken(lv.PALETTE.GREY, 4), lv.PART.MAIN)
+
+        self.btn = lv.button(screen)
+        self.btn.align(lv.ALIGN.CENTER, 0, 0)
+
+        self.lbl = lv.label(self.btn)
+        self.lbl.set_text(&quot;Button&quot;)
+
+        self.cnt = 0
+
+        self.btn.add_event_cb(self.btn_cb, lv.EVENT.ALL, None)
+
+    def btn_cb(self, evt):
+        code = evt.get_code()
+
+        if code == lv.EVENT.CLICKED:
+            self.cnt += 1
+            print(self.cnt)
+
+            self.lbl.set_text(&quot;Button: &quot; + str(self.cnt))
+
+
+counter_btn = CounterBtn()
+
+</code></pre>
+<h3 id="wifi-config-screen">wifi-config screen</h3>
+<pre><code class="language-python">
+# Initialize
+
+import display_driver
+import lvgl as lv
+
+disp = lv.display_get_default()
+disp.set_resolution(296,240)
+
+
+
+
+class TextArea:
+    def __init__(self, screen):
+        self._screen = screen
+        self.ta = lv.textarea(screen)
+        self.ta.add_event_cb(self._ta_event_cb, lv.EVENT.ALL, None)
+        self._kb = None
+
+    def _ta_event_cb(self, event):
+        code = event.get_code()
+
+        if code == lv.EVENT.CLICKED or code == lv.EVENT.FOCUSED:
+            if self._kb is None:
+                # create keyboard
+                self._kb = lv.keyboard(self._screen)
+                self._kb.set_size(self._screen.get_width(), int(self._screen.get_height()/2) )
+                self._kb.align_to(self.ta, lv.ALIGN.OUT_BOTTOM_MID, 0, 0)
+                self._kb.set_x(0)
+                self._kb.set_textarea(self.ta)
+                self._kb.add_event_cb(self._kb_event_cb, lv.EVENT.ALL, None)
+
+        elif code == lv.EVENT.DEFOCUSED:
+            if self._kb is not None:
+                self._kb.delete()
+                self._kb = None
+
+    def _kb_event_cb(self, event):
+        code = event.get_code()
+        if code == lv.EVENT.READY or code == lv.EVENT.CANCEL:
+            self.ta.send_event(lv.EVENT.DEFOCUSED, self.ta)
+
+
+
+
+class ButtonLabel:
+    def __init__(self, screen, label, cb):
+        btn = lv.button(screen)
+        self.btn = btn
+        btn.set_height(30)
+        lbl = lv.label(btn)
+        lbl.set_text(label)
+        lbl.align(lv.ALIGN.CENTER, 0, 0)
+        btn.add_event_cb(self._bt_event_cb, lv.EVENT.CLICKED, None)
+        self.cb = cb
+
+    def _bt_event_cb(self, event):
+        # code = event.get_code()
+        self.cb()
+
+
+
+class WifiScreen:
+    def __init__(self):
+        self._screen = lv.obj()
+        self._construct()
+
+    def load(self):
+        lv.screen_load(self._screen)
+
+    def _save_cb(self):
+        ssid = self.ss_ta.ta.get_text()
+        key = self.key_ta.ta.get_text()
+        print(f&quot;{ssid=}, {key=}&quot;)
+        # TODO save
+
+    def _cancel_cb(self):
+        print(&quot;Cancel&quot;)
+        #home_screen = fri3d.screens.home.HomeScreen()
+        #home_screen.load()
+
+    def _construct(self):
+        screen = self._screen
+
+        # title
+        title = lv.label(screen)
+        title.set_text(&quot;Wifi Configuration&quot;)
+        title.align(lv.ALIGN.TOP_MID, 0, 0)
+
+        # ssid textarea
+        ss_ta = TextArea(screen)
+        self.ss_ta = ss_ta
+        ss_ta.ta.set_text(&quot;&quot;)
+        ss_ta.ta.set_one_line(True)
+        ss_ta.ta.set_width(lv.pct(50))
+        ss_ta.ta.set_pos(100, 20)
+
+        # ssid label
+        ss_lbl = lv.label(screen)
+        ss_lbl.set_text(&quot;SSID:&quot;)
+        ss_lbl.align_to(ss_ta.ta, lv.ALIGN.OUT_LEFT_MID, -5, 0)
+
+        # key textarea
+        key_ta = TextArea(screen)
+        self.key_ta = key_ta
+        key_ta.ta.set_text(&quot;&quot;)
+        key_ta.ta.set_password_mode(True)
+        key_ta.ta.set_one_line(True)
+        key_ta.ta.set_width(lv.pct(50))
+        key_ta.ta.set_pos(100, 60)
+
+        # key label
+        key_lbl = lv.label(screen)
+        key_lbl.set_text(&quot;Key:&quot;)
+        key_lbl.align_to(key_ta.ta, lv.ALIGN.OUT_LEFT_MID, -5, 0)
+
+        # save button
+        sv = ButtonLabel(screen, lv.SYMBOL.OK + &quot; Save&quot;, self._save_cb)
+        sv.btn.align(lv.ALIGN.RIGHT_MID, -5, 0)
+
+        # cancel button
+        cancel = ButtonLabel(screen, lv.SYMBOL.CLOSE + &quot; Cancel&quot;, self._cancel_cb)
+        cancel.btn.align(lv.ALIGN.LEFT_MID, 5, 0)
+
+
+
+w = WifiScreen()
+w.load()
+
+</code></pre>
+<h3 id="canvas">canvas</h3>
+<p>red border around a golden background</p>
+<pre><code class="language-python"># Initialize
+import display_driver
+import lvgl as lv
+disp = lv.display_get_default()
+disp.set_resolution(296,240)
+
+scr = lv.screen_active()
+
+buf = lv.draw_buf_create(scr.get_width(),scr.get_height(),lv.COLOR_FORMAT.RGB565, lv.STRIDE_AUTO)
+canvas = lv.canvas(scr)
+canvas.set_draw_buf(buf)
+canvas.center()
+
+layer = lv.layer_t()
+canvas.init_layer(layer)
+
+dsc = lv.draw_rect_dsc_t()
+dsc.bg_color = lv.color_hex(0xffbf00)
+dsc.bg_opa = lv.OPA.COVER
+
+dsc.border_color = lv.palette_main(lv.PALETTE.RED)
+dsc.border_width = 2
+dsc.border_side = lv.BORDER_SIDE.TOP | lv.BORDER_SIDE.LEFT | lv.BORDER_SIDE.RIGHT | lv.BORDER_SIDE.BOTTOM
+dsc.border_opa = lv.OPA.COVER
+
+dsc.radius = 61
+
+a = lv.area_t()
+a.x1 = 0
+a.y1 = 0
+a.x2 = 295
+a.y2 = 239
+
+lv.draw_rect(layer, dsc, a)
+
+canvas.finish_layer(layer)
+</code></pre>
+<h2 id="real-examples">real examples</h2>
+<h3 id="load-png-image">load png image</h3>
+<pre><code class="language-python"># load fri3d_logo-min.png
+png = open('fri3d_logo-min.png', 'rb')
+data = png.read()
+png.close()
+
+img = lv.image(lv.screen_active())
+
+imgd = lv.image_dsc_t()
+imgd.header.cf = lv.COLOR_FORMAT.ARGB8888
+imgd.header.w = 240
+imgd.header.h = 240
+imgd.data = data
+imgd.data_size = len(data)
+
+img.set_src(imgd)
+
+img.align(lv.ALIGN.CENTER, 0, 0)
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

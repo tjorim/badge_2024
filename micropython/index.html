@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>MicroPython documentation - Fri3d 2024</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Fri3d 2024</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Fri3d Camp 2024 Badge</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Arduino</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../arduino/" class="dropdown-item">Arduino documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Bipes</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../bipes/" class="dropdown-item">BIPES documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Esphome</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../esphome/" class="dropdown-item">ESPHome documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Micropython</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">MicroPython documentation</a>
+</li>
+                                    
+<li>
+    <a href="lvgl/" class="dropdown-item">LVGL</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Noisycricket</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../noisycricket/" class="dropdown-item">Noisy Cricket</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Onboarding</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../onboarding/" class="dropdown-item">Onboarding documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Platformio</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../platformio/" class="dropdown-item">PlatformIO</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../esphome/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="lvgl/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#micropython-documentation" class="nav-link">MicroPython documentation</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#flash-the-default-fri3d-micropython-firmware" class="nav-link">Flash the default fri3d micropython firmware</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#how-to-run-a-local-file" class="nav-link">How to run a local file</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#how-to-copy-a-file-to-the-badge" class="nav-link">how to copy a file to the badge</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#micropython-libraries" class="nav-link">Micropython libraries</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#micropython-game-ideas" class="nav-link">micropython game ideas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="micropython-documentation">MicroPython documentation</h1>
+<h2 id="flash-the-default-fri3d-micropython-firmware">Flash the default fri3d micropython firmware</h2>
+<p>download firmware from
+https://github.com/cheops/fri3d-ota/tree/main/ota/fri3d_badge_2024<br />
+select the version and then the <code>*.zip</code> file in that folder</p>
+<p>flasher app 
+https://fri3d-flasher.vercel.app/#/</p>
+<p>If your download fails, you might have more success if you put the badge in DOWNLOAD mode manually:
+- PRESS + HOLD the START button
+- PRESS the RESET button (while HOLDING the START button)
+- the badge has now restarted in download mode</p>
+<p>after the download you might need to reset the badge to boot normally (PRESS the RESET button)</p>
+<h2 id="how-to-run-a-local-file">How to run a local file</h2>
+<p>Install <code>mpremote</code> <a href="https://docs.micropython.org/en/latest/reference/mpremote.html">howto</a></p>
+<p>TLDR; <code>pip install mpremote</code></p>
+<pre><code class="language-sh">mpremote resume run local_test_file.py
+</code></pre>
+<p>Unfortunately <code>Thonny</code> interrupts the startup of the badge when connecting, leaving some items (spi, display) in an undefined state.<br />
+The same for <code>mpremote</code> if not supplied with the <code>resume</code> argument.</p>
+<h2 id="how-to-copy-a-file-to-the-badge">how to copy a file to the badge</h2>
+<pre><code class="language-sh">mpremote resume fs cp local_path/file.jpg :file.jpg
+</code></pre>
+<h2 id="micropython-libraries">Micropython libraries</h2>
+<p>Micropython <a href="https://docs.micropython.org/en/v1.22.0/esp32/quickref.html">quick reference for the esp32</a></p>
+<p>Micropython standard libraries overview <a href="https://docs.micropython.org/en/v1.22.0/library/index.html">doc</a></p>
+<p>The badge has <a href="lvgl">lvgl</a> built-in.</p>
+<p>Buttons demo <a href="https://github.com/cheops/badge_2024_micropython/blob/lv_indev/fri3d/modules/demos/demo_buttons.py">demo_buttons.py</a></p>
+<p>Joystick demo <a href="https://github.com/cheops/badge_2024_micropython/blob/lv_indev/fri3d/modules/demos/demo_joystick.py">demo_joystick.py</a></p>
+<p>Other interesting links
+- https://github.com/peterhinch/micropython-samples
+- https://github.com/mcauser/awesome-micropython</p>
+<h2 id="micropython-game-ideas">micropython game ideas</h2>
+<ul>
+<li>https://hackaday.com/2021/05/25/simple-micropython-game-is-a-30-minute-game-dev-course/</li>
+<li>pinball <a href="https://github.com/russhughes/s3lcd/blob/main/examples/pinball.py">link1</a> or <a href="https://github.com/russhughes/st7789_mpy/blob/master/examples/pinball.py">link2</a></li>
+<li><a href="https://github.com/cheungbx/gameESP-micropython">gameESP</a></li>
+<li><a href="https://github.com/cheops/badge_2024_micropython/blob/s3lcd/fri3d/modules/demos/snake.py">snake</a></li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
