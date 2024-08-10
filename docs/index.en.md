@@ -5,7 +5,7 @@ So you got a cool badge, what can you do with it? ;-)
 ## Play with it
 
 You don't need to be a programming wizard to have fun with this badge!
-Go to the [Onboarding](Onboarding) pages to see all the cool features we built into the standard firmware.
+Go to the [Onboarding](onboarding) pages to see all the cool features we built into the standard firmware.
 
 ![badge image place holder](badge2024.jpg)
 
@@ -26,7 +26,7 @@ See [how to reset](reset)
 
 ## Documentation
 
-- The introduction: <https://github.com/Fri3dCamp/badge_2024>
-- The hardware: <https://github.com/Fri3dCamp/badge_2024_hw>
-- C++ examples: <https://github.com/Fri3dCamp/badge_2024_arduino>
-- pre-loaded Firmware: <https://github.com/Fri3dCamp/badge_2024_micropython>
+- [The introduction](https://github.com/Fri3dCamp/badge_2024)
+- [The hardware](https://github.com/Fri3dCamp/badge_2024_hw)
+- [C++ examples](https://github.com/Fri3dCamp/badge_2024_arduino)
+- [pre-loaded Firmware](https://github.com/Fri3dCamp/badge_2024_micropython)
