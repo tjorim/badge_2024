@@ -21,7 +21,7 @@ AKA BFG9000 (**B**ig **F**lamingo **G**un)
 
 AKA Noisy Cricket
 
-![Noisy Cricket](../noisycricket/pin_header_alternate_orientation.png)
+<img src="../noisycricket/pin_header_alternate_orientation.png" alt="Noisy Cricket" height="350"/>
 
 ## Communicator
 
