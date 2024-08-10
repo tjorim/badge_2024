@@ -4,11 +4,12 @@
 
 ![Badge](../badge2024.jpg)
 
-default software can be controlled with the `X`, `Y`, `A` & `B` buttons
+Default software ("Fri3d App") can be controlled with the `X` (up) , `Y` (down), `A` (choose) & `B` (back) buttons
 
-- OTA Update (Update your badge to latest release over Wi-Fi)
-- Hardware test (used to test all badges during production)
-- Retro-Go (an emulator for Gemaboy, NES and other homebrew games)
+- OTA Update: update your badge to latest release over Wi-Fi
+- MicroPython: start MicroPython
+- Hardware test: used to test all badges during production
+- Retro-Go Gaming: an emulator for playing Nintendo Entertainment System (NES), Gameboy, Gameboy Color and Doom games on the badge
 
 ## Flamingo
 
