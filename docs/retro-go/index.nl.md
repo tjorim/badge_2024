@@ -1,8 +1,7 @@
 # Retro-Go Gaming
 
-Retro-Go is een programma om retro spelletjes op ESP32-gebaseerde toestellen te spelen, zoals de Fri3d Camp 2024 Badge.
-Het project bestaat uit een "lanceerder" en een selectie van de beste applicatie en emulators die
-serieus geoptimaliseerd zijn om minder CPU, geheugen en opslag nodig te hebben, zonder minder compatibel te zijn!
+Retro-Go is een programma om oude (maar goeie!) spelletjes op ESP32-gebaseerde toestellen te spelen, zoals de Fri3d Camp 2024 Badge.
+Het project bestaat uit een "lanceerder" en een selectie van de beste applicaties en emulators, serieus geoptimaliseerd om minder CPU, geheugen en opslag nodig te hebben, zonder minder compatibel te zijn!
 
 ## Gebruik
 
@@ -14,16 +13,16 @@ serieus geoptimaliseerd zijn om minder CPU, geheugen en opslag nodig te hebben, 
 - `Start`: Volgende scherm
 - `X`: "Opties" menu:
 	- Volume van het geluid
-	- Audio out: "Buzzer" die op de badge zit (stil en lage kwaliteit) of "Ext(ernal) DAC" op de Communicator add-on
+	- Audio out: "Buzzer" die op de badge zit (stil en lage kwaliteit) of "Ext(ernal) DAC" voor de [Communicator](../communicator/) of andere externe luidsprekers
 	- Wi-Fi opties:
 		- Wi-Fi Access Point: activeer deze, verbind met de hotspot en surf naar http://192.168.4.1/ om de bestanden op de badge te beheren
-- `Y`: Menu met "Find games" om spelletjes ROMs te delen met je vrienden
+- `Y`: Menu met "Find games" om te [zoeken naar spelletjes die je nog niet hebt bij je vrienden](#spelletjes-zoeken)
 - `A`: Actie
 - `B`: Terug
 - Boven/Onder: menuinstelling selecteren
 - Links/Rechts: menuinstelling aanpassen
 
-### In Gameboy (Color) en NES spelletjes:
+### In NES en Gameboy (Color) spelletjes:
 
 - `Start`: Start
 - `Menu`: Select (bijna nooit nodig)
@@ -35,23 +34,23 @@ serieus geoptimaliseerd zijn om minder CPU, geheugen en opslag nodig te hebben, 
 - `Start`: Gebruik (deur, knop, schakelaar)
 - `X`: Opties menu
 - `Y`: Spel Menu
-- `A`: Schieten of kloppen
+- `A`: Schieten (of slaan)
 - `B`: Snel of zijwaarts lopen
 
 ### Overal:
 
-- START+MENU: Start de Fri3d App
-- RESET: herstart de huidige app
+- `RESET`: herstart de huidige app
+- `START+MENU` samen: Ga uit Retro-Go, terug naar de Fri3d App
 
 ### SD Kaartje of intern opslaggeheugen
 
-De badge zal proberen de micro SD kaart aan te koppelen en als dat niet lukt, gebruikt hij het interne opslaggeheugen.
+De badge zal proberen de micro SD kaart (geformatteerd als FAT32) te gebruiken en als dat niet lukt, het interne opslaggeheugen.
 
-Als je een nieuwe micro SD kaart insteekt, is het aangeraden om dit eerst te vullen met de laaste nieuwe `default_files_config_and_games.zip` van [de releases pagina](https://github.com/tomvanbraeckel/retro-go-fri3d/releases) zodat je alle juiste standaard instellingen hebt, vooral de wifi netwerken.
+Als je een nieuwe micro SD kaart insteekt, is het aangeraden om dit eerst te vullen met de laaste nieuwe `default_files_config_and_games.zip` van [de releases pagina](https://github.com/tomvanbraeckel/retro-go-fri3d/releases) zodat je alle juiste standaard instellingen hebt, zoals de wifi netwerken.
 
 ### Spelletjes zoeken
 
-Als je graag wil zoeken naar spelletjes die je nog niet hebt op de badge van een vriend, dan kan dat rechtstreeks, zonder dat je een laptop of SD kaartlezer nodig hebt.
+Als je graag wil zoeken naar spelletjes die je nog niet hebt op de badge van een vriend, dan kan dat rechtstreeks, zonder dat je een laptop of SD kaartlezer nodig hebt!
 
 Het werkt in 3 stappen:
 
@@ -66,11 +65,11 @@ Mocht er een fout optreden, probeer dan eens opnieuw - hij slaat spelletjes over
 
 ### Zelf spelletjes maken
 
-Met [GBStudio](https://www.gbstudio.dev/) kan je zelf eenvoudig verschillende soorten spelletjes maken voor GameBoy Color. Als je op YouTube zoekt naar 'GBStudio' vind je een [hele goeie playlist van filmpjes](https://www.youtube.com/watch?v=hNXlV2tt7eE&list=PLmac3HPrav--Q4QKUVknwwMSNk1YECFKT) die je op een dik uurtje alles leren wat je moet weten.
+Met [GBStudio](https://www.gbstudio.dev/) kan je zelf eenvoudig verschillende soorten spelletjes maken voor GameBoy Color. Als je op YouTube zoekt naar 'GBStudio' vind je een [hele goeie playlist van filmpjes](https://www.youtube.com/watch?v=hNXlV2tt7eE&list=PLmac3HPrav--Q4QKUVknwwMSNk1YECFKT) die je snel alles leren wat je moet weten.
 
 # Over Retro-Go
 
-Retro-go heeft zelf [ondersteuning voor de Fri3d Camp 2024 Badge](https://github.com/ducalex/retro-go/tree/dev/components/retro-go/targets/fri3d-2024) maar de afgeleide versie [retro-go-fri3d](https://github.com/tomvanbraeckel/retro-go-fri3d/releases) bevat een pak meer toeters en bellen die te specifiek zijn voor Fri3d Camp om in de "standaard" versie te kunnen.
+Retro-go heeft zelf [ondersteuning voor de Fri3d Camp 2024 Badge](https://github.com/ducalex/retro-go/tree/dev/components/retro-go/targets/fri3d-2024) maar de afgeleide versie [retro-go-fri3d](https://github.com/tomvanbraeckel/retro-go-fri3d/) bevat een pak meer toeters en bellen die *te specifiek* zijn voor Fri3d Camp om in de algemene versie te kunnen.
 
 
 ## Ondersteunde systemen:
