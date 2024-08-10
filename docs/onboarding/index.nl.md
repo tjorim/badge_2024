@@ -14,7 +14,8 @@ Standaard software bedienen met `X`, `Y`, `A` & `B`
 
 AKA BFG9000 (**B**ig **F**lamingo **G**un)
 
-![Flamingo](../flamingo/done.jpg =x250)
+<img src="../flamingo/done.jpg" alt="Flamingo" height="250"/>
+
 
 ## Mini-blaster
 
