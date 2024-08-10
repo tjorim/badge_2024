@@ -4,6 +4,12 @@
 
 ![Badge](../badge2024.jpg)
 
+default software can be controlled with the `X`, `Y`, `A` & `B` buttons
+
+- OTA Update (Update your badge to latest release over Wi-Fi)
+- Hardware test (used to test all badges during production)
+- Retro-Go (an emulator for Gemaboy, NES and other homebrew games)
+
 ## Flamingo
 
 AKA BFG9000 (**B**ig **F**lamingo **G**un)
@@ -14,8 +20,16 @@ AKA BFG9000 (**B**ig **F**lamingo **G**un)
 
 AKA Noisy Cricket
 
-![Noisy Cricket](../noisycricket/pin_header_alternate_orientation.png.jpg)
+![Noisy Cricket](../noisycricket/pin_header_alternate_orientation.png)
 
 ## Communicator
 
 ![Communicator](../communicator/communicator_mounted.jpg)
+
+If you plug in the USB connector of the LANA module, you can use the Communicator as an USB keyboard. When connected to the badge, you can use the following features : 
+
+- backlit QWERTY Keyboard designed by [Solder Party](https://www.solder.party/) available on UART
+- [TDK ICS43434](https://invensense.tdk.com/products/ics-43434/) microphone
+- [Analog Devices MAX98357A](https://www.analog.com/en/products/max98357a.html) DAC with amplifier and small speaker
+
+The key combinations to control the nbacklight and other special combinations can be found on the [Communicator page](communicator).
