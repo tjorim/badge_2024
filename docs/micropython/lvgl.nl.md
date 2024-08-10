@@ -1,5 +1,8 @@
 # LVGL
-badge_2024_micropython is built with LVLG v9.1 included
+
+**NOG VERTALEN**
+
+badge_2024_micropython is build with LVLG v9.1 included
 
 ## links
 - lvgl homepage https://lvgl.io/
