@@ -56,7 +56,7 @@ plugins:
       docs_structure: suffix
       languages:
         - locale: en
-          default: true
           name: English
         - locale: nl
+          default: true
           name: Nederlands
