@@ -29,7 +29,7 @@ source .venv/bin/activate
 For Python 3.6 and higher, you can install mkdocs and the material theme with the following command:
 
 ```bash
-pip -r requirements.txt
+pip install -r requirements.txt
 ```
 
 Then you can start the local server with:
