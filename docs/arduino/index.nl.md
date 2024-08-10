@@ -1,17 +1,15 @@
-**NOG VERTALEN**
+download de [Arduino IDE van hun website](https://www.arduino.cc/en/software)
 
-download the Arduino IDE from <https://www.arduino.cc/en/software>
-
-# Arduino IDE setup steps
-For the Fri3d badge to be usable in the Arduino IDE, you need to install version 2.0.17 of the esp32 board package. Below are the steps:
+# Arduino IDE installatie
+Om de Fri3d badge te gebruiken in de Arduino IDE moret je versie `2.0.17` van de ESP32 board package installeren. hieronder de instructies
 
 ## General Arduino IDE Setup
-- From the Tools Menu, select Boards -> Boards Manager in the Arduino IDE, then install **version 2.0.17** of the esp32 package.
-  - Reason for version 2.0.17 is that I tried version 3.0.2 and **version 3.0.2 causes compilation errors** for the ESP32S3 board.
-- From the Tools Menu, select Board -> esp32 -> ESP32S3 Dev Module
+- In de Arduino IDE klik je op het `Tools` menu, selecteer `Boards` vervolgens `Boards Manager`. Installeer  **versie 2.0.17** van het ESP32 packet.
+  - de reden dat we versie `2.0.17` adviseren is omdat ver `3.0.2` compilatie fouten geeft voor de ESP32S3 module.
+- In het `Tools` menu, selecteer `Board` -> `esp32` -> `ESP32S3 Dev Module`
 
-## How to Upload in Arduino IDE
-- Turn on your badge
-- connect your badge via usb to your computer
-- From the Tools Menu, select Port and select the entry that looks like it might be your badge.
-- Click the Upload Button (right pointing arrow button in green)
+## Hoe uploaden in Arduino IDE
+- Zet je badge aan
+- Connecteer de badge via USB aan je computer
+- In het `Tools` menu selecteer je `Port` en kies je degene die het mest lijkt op de badge uit de lijst.
+- Klik op de Upload knop (rechts wijzenden groene pijl)

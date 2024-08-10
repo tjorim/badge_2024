@@ -1,8 +1,8 @@
 
-download the Arduino IDE from <https://www.arduino.cc/en/software>
+download the [Arduino IDE from their website](https://www.arduino.cc/en/software)
 
 # Arduino IDE setup steps
-For the Fri3d badge to be usable in the Arduino IDE, you need to install version 2.0.17 of the esp32 board package. Below are the steps:
+For the Fri3d badge to be usable in the Arduino IDE, you need to install version `2.0.17` of the esp32 board package. Below are the steps:
 
 ## General Arduino IDE Setup
 - From the Tools Menu, select Boards -> Boards Manager in the Arduino IDE, then install **version 2.0.17** of the esp32 package.
