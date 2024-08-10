@@ -14,7 +14,7 @@ Standaard software bedienen met `X`, `Y`, `A` & `B`
 
 AKA BFG9000 (**B**ig **F**lamingo **G**un)
 
-![Flamingo](../flamingo/done.jpg)
+![Flamingo](../flamingo/done.jpg =x250)
 
 ## Mini-blaster
 
@@ -24,7 +24,7 @@ AKA Noisy Cricket
 
 ## Communicator
 
-![Communicator](../communicator/communicator_mounted.jpg)
+![Communicator](../communicator/communicator_mounted.jpg =x250)
 
 Indien je hem niet aansluit op de badge, kan je de Communicator als USB Keyboard gebruiken. Als hem wel aansluit kan je gebruik maken van volgende functies:
 

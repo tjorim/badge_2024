@@ -14,7 +14,7 @@ default software can be controlled with the `X`, `Y`, `A` & `B` buttons
 
 AKA BFG9000 (**B**ig **F**lamingo **G**un)
 
-![Flamingo](../flamingo/done.jpg)
+![Flamingo](../flamingo/done.jpg =x250)
 
 ## Mini-blaster
 
@@ -24,7 +24,7 @@ AKA Noisy Cricket
 
 ## Communicator
 
-![Communicator](../communicator/communicator_mounted.jpg)
+![Communicator](../communicator/communicator_mounted.jpg =x250)
 
 If you plug in the USB connector of the LANA module, you can use the Communicator as an USB keyboard. When connected to the badge, you can use the following features : 
 
