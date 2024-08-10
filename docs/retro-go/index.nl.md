@@ -1,0 +1,102 @@
+# Retro-Go Gaming
+
+Retro-Go is een programma om retro spelletjes op ESP32-gebaseerde toestellen te spelen, zoals de Fri3d Camp 2024 Badge.
+Het project bestaat uit een "lanceerder" en een selectie van de beste applicatie en emulators die
+serieus geoptimaliseerd zijn om minder CPU, geheugen en opslag nodig te hebben, zonder minder compatibel te zijn!
+
+## Gebruik
+
+![Badge](Badge_Front.png)
+
+### Knoppen in de lanceerder:
+
+- `Menu`: Vorige scherm
+- `Start`: Volgende scherm
+- `X`: "Opties" menu:
+	- Volume van het geluid
+	- Audio out: "Buzzer" die op de badge zit (stil en lage kwaliteit) of "Ext(ernal) DAC" op de Communicator add-on
+	- Wi-Fi opties:
+		- Wi-Fi Access Point: activeer deze, verbind met de hotspot en surf naar http://192.168.4.1/ om de bestanden op de badge te beheren
+- `Y`: Menu met "Find games" om spelletjes ROMs te delen met je vrienden
+- `A`: Actie
+- `B`: Terug
+- Boven/Onder: menuinstelling selecteren
+- Links/Rechts: menuinstelling aanpassen
+
+### In Gameboy (Color) en NES spelletjes:
+
+- `Start`: Start
+- `Menu`: Select (bijna nooit nodig)
+- `A` en `B`: spelknoppen
+
+### In Doom:
+
+- `Menu`: Wissel van wapen
+- `Start`: Gebruik (deur, knop, schakelaar)
+- `X`: Opties menu
+- `Y`: Spel Menu
+- `A`: Schieten of kloppen
+- `B`: Snel of zijwaarts lopen
+
+### Overal:
+
+- START+MENU: Start de Fri3d App
+- RESET: herstart de huidige app
+
+### SD Kaartje of intern opslaggeheugen
+
+De badge zal proberen de micro SD kaart aan te koppelen en als dat niet lukt, gebruikt hij het interne opslaggeheugen.
+
+Als je een nieuwe micro SD kaart insteekt, is het aangeraden om dit eerst te vullen met de laaste nieuwe `default_files_config_and_games.zip` van [de releases pagina](https://github.com/tomvanbraeckel/retro-go-fri3d/releases) zodat je alle juiste standaard instellingen hebt, vooral de wifi netwerken.
+
+### Spelletjes zoeken
+
+Als je graag wil zoeken naar spelletjes die je nog niet hebt op de badge van een vriend, dan kan dat rechtstreeks, zonder dat je een laptop of SD kaartlezer nodig hebt.
+
+Het werkt in 3 stappen:
+
+1. **je vriend zet zijn hotspot aan** *(X knop -> "Wi-Fi options" -> "Wi-Fi Access Point" en kiest er eentje, bijvoorbeeld "retro-go-channel-8")*
+2. **jij verbindt met zijn hotspot** *(X knop -> "Wi-Fi options" -> "Wi-Fi select" -> "retro-go-channel-8" die je vriend koos)*
+3. **jij zoekt naar spelletjes** *(Y knop -> "Find games" -> kies welke soort spelletjes je wil zoeken)*
+
+Dit kan even duren, maar als je het beu bent kan je het altijd stoppen door je badge te herstarten.
+Mocht er een fout optreden, probeer dan eens opnieuw - hij slaat spelletjes over die je al hebt.
+
+*Tip: Zet de beste paar spelletjes in een mapje "/roms/nes/best" of "/roms/gbc/best" en zet je zelfgemaakte spelletjes in "/roms/gbc/gbstudio" zodat je die gemakkelijk kan terugvinden.*
+
+### Zelf spelletjes maken
+
+Met [GBStudio](https://www.gbstudio.dev/) kan je zelf eenvoudig verschillende soorten spelletjes maken voor GameBoy Color. Als je op YouTube zoekt naar 'GBStudio' vind je een [hele goeie playlist van filmpjes](https://www.youtube.com/watch?v=hNXlV2tt7eE&list=PLmac3HPrav--Q4QKUVknwwMSNk1YECFKT) die je op een dik uurtje alles leren wat je moet weten.
+
+# Over Retro-Go
+
+Retro-go heeft zelf [ondersteuning voor de Fri3d Camp 2024 Badge](https://github.com/ducalex/retro-go/tree/dev/components/retro-go/targets/fri3d-2024) maar de afgeleide versie [retro-go-fri3d](https://github.com/tomvanbraeckel/retro-go-fri3d/releases) bevat een pak meer toeters en bellen die te specifiek zijn voor Fri3d Camp om in de "standaard" versie te kunnen.
+
+
+## Ondersteunde systemen:
+
+- Nintendo Entertainment System (NES)
+- Gameboy
+- Gameboy Color
+- DOOM (ook mods!)
+
+Er zijn nog andere systemen ondersteund maar deze zijn niet geactiveerd op de Fri3D Camp 2024 Badge omdat ze minder populair zijn of omdat ze wat te traag werkten.
+
+## Eigenschappen:
+- Menu in de spelletjes
+- Favorieten en recent gespeelde spellen
+- GameBoy kleurenpaletten, klok aanpassen en bewaren
+- NES kleurenpaletten, PAL ROMs, NSF ondersteuning
+- Opties om het scherm te schalen en te filteren
+- Goeie performantie en compatibiliteit
+- Turbo Snelheid/Doorspoelen
+- Hoesjes en voorbeeldweergave van bewaarde spelstatus
+- Meerdere spelstatussen bewaren per spel
+- Bestanden beheren via draadloos netwerk
+- Vriend-naar-vriend spel ROMs delen
+- Aansturing van piezoelektrische zoemer as primitieve luidspreker
+- Ondersteuning voor Fri3d Camp 2024 "Communicator" en andere externe luidsprekers
+
+## Schermafdrukken
+
+![Preview](retro-go-preview.jpg)

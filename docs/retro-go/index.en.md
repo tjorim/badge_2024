@@ -1,3 +1,3 @@
 # Retro-Go Gaming
 
-TBD
+For now, this page is only available in Dutch. Translations welcome!
