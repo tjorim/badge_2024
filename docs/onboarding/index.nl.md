@@ -17,12 +17,15 @@ AKA BFG9000 (**B**ig **F**lamingo **G**un)
 
 <img src="../flamingo/done.jpg" alt="Flamingo" height="350"/>
 
+De flamingo kan je, [eens deze gesoldeerd is](flamingo), aansluiten op de badge en gebruiken. Geen verdere actie is vereist.
 
 ## Mini-blaster
 
 AKA Noisy Cricket
 
 <img src="../noisycricket/pin_header_alternate_orientation.png" alt="Noisy Cricket" height="350"/>
+
+Deze kleine (SAO)[https://hackaday.io/project/175182-simple-add-ons-sao] is te verkrijgen bij Team Badge tegen de kostprijs van 1 consumptie.
 
 ## Communicator
 
