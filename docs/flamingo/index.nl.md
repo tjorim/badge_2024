@@ -8,8 +8,6 @@ De flamingo blaster is opgebouwd rond volgende basiscomponenten:
 - 4 WS2812 LED's
 - RISC-V-gebaseerd microcontrollerbord [LANA TNY](https://phyx.be/LANA_TNY/)
 
-**Sluit de USB-kabel niet aan wanneer deze is aangesloten op de badge**!
-
 ![blockdiagram](blockdiagram.png)
 
 ## Stapsgewijze montagehandleiding

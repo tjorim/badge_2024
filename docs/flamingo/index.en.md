@@ -8,8 +8,6 @@ The flamingo blaster is built around basic components:
 - 4 WS2812 LEDs 
 - RISC-V based microcontroller board [LANA TNY](https://phyx.be/LANA_TNY/)
 
-**Do not plug in the USB cable when it's connected to the badge**!
-
 ![blockdiagram](blockdiagram.png)
 
 ## Step by step assembly guide
