@@ -17,7 +17,7 @@ AKA BFG9000 (**B**ig **F**lamingo **G**un)
 
 <img src="../flamingo/done.jpg" alt="Flamingo" height="350"/>
 
-De flamingo kan je, [eens deze gesoldeerd is](flamingo), aansluiten op de badge en gebruiken. Geen verdere actie is vereist.
+De flamingo kan je, [eens deze gesoldeerd is](../flamingo), aansluiten op de badge en gebruiken. Geen verdere actie is vereist.
 
 ## Mini-blaster
 
@@ -37,4 +37,4 @@ Indien je hem niet aansluit op de badge, kan je de Communicator als USB Keyboard
 - [TDK ICS43434](https://invensense.tdk.com/products/ics-43434/) microfoon
 - [Analog Devices MAX98357A](https://www.analog.com/en/products/max98357a.html) DAC met versterker verbonden aan een kleine luidspreker
 
- De toetsemcombinaties om de verlichting aan en uit te zetten kan je terugvinden op de [Communicator pagina](communicator).
+ De toetsemcombinaties om de verlichting aan en uit te zetten kan je terugvinden op de [Communicator pagina](../communicator).

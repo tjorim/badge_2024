@@ -17,7 +17,7 @@ AKA BFG9000 (**B**ig **F**lamingo **G**un)
 
 <img src="../flamingo/done.jpg" alt="Flamingo" height="350"/>
 
-You can use the flamingo, [once fully assembled](flamingo), direclty with your badge. No further configuration is required.
+You can use the flamingo, [once fully assembled](../flamingo), direclty with your badge. No further configuration is required.
 
 ## Mini-blaster
 
@@ -38,4 +38,4 @@ If you plug in the USB connector of the LANA module, you can use the Communicato
 - [TDK ICS43434](https://invensense.tdk.com/products/ics-43434/) microphone
 - [Analog Devices MAX98357A](https://www.analog.com/en/products/max98357a.html) DAC with amplifier and small speaker
 
-The key combinations to control the nbacklight and other special combinations can be found on the [Communicator page](communicator).
+The key combinations to control the nbacklight and other special combinations can be found on the [Communicator page](../communicator).
