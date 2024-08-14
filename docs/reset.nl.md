@@ -13,7 +13,7 @@ Zoek naar de "badge reset firmware" booth op het kamp. We hebben alles voorzien 
 
 De online flasher app werkt enkel met browsers gebaseerd op chrome based (Chrome, Edge) (niet Firefox, Safari).
 
-1. download meest recente zip file van <https://github.com/tomvanbraeckel/retro-go-fri3d/releases>
+1. download de meest recente `full_webflasher_*.zip` van <https://github.com/Fri3dCamp/badge_firmware/releases>
 2. ga naar <https://fri3d-flasher.vercel.app/>
 3. klik icoon om de zip file te uploaden die je zonet hebt gedownload
 4. klik "begin te flashen" knop
