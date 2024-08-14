@@ -25,14 +25,13 @@ AKA Noisy Cricket
 
 <img src="../noisycricket/pin_header_alternate_orientation.png" alt="Noisy Cricket" height="350"/>
 
-This small (SAO)[https://hackaday.io/project/175182-simple-add-ons-sao] can be acquired from Team Badge for the cost of 1 consumption.
+This small [SAO](https://hackaday.io/project/175182-simple-add-ons-sao) can be acquired from Team Badge for the cost of 1 consumption.
 
 ## Communicator
 
 <img src="../communicator/communicator_mounted.jpg" alt="Communicator" height="350"/>
 
-
-If you plug in the USB connector of the LANA module, you can use the Communicator as an USB keyboard. When connected to the badge, you can use the following features : 
+If you plug in the USB connector of the LANA module, you can use the Communicator as an USB keyboard. When connected to the badge, you can use the following features :
 
 - backlit QWERTY Keyboard designed by [Solder Party](https://www.solder.party/) available on UART
 - [TDK ICS43434](https://invensense.tdk.com/products/ics-43434/) microphone
