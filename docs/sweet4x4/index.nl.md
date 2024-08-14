@@ -1,83 +1,91 @@
 # Sweet 4x4
 
-**NOG VERTALEN**
+## Kenmerken
 
-## Features
-The sweet 4x4 macropad is at its 3rd iteration. This tiume you'll use a [LANA TNY](https://phyx.be/LANA_TNY/) (or any other [XIAO / QtPy compatible board](https://github.com/adafruit/awesome-qt-py)) at the heart of this macropad. 
-You can opt for 16 keys or 15 keys and a rotary encoder.
+De Sweet 4x4 macropad is nu in zijn derde iteratie. Dit keer gebruik je een [LANA TNY](https://phyx.be/LANA_TNY/) (of een ander [XIAO / QtPy compatibel bord](https://github.com/adafruit/awesome-qt-py)) als het hart van deze macropad. Je kunt kiezen voor 16 toetsen of 15 toetsen en een draaischakelaar.
 
-![finished macropad](backlit.gif)
+![voltooide macropad](backlit.gif)
 
-## Step by step assembly guide
+## Stapsgewijze montagegids
 
-### Overview
-The package you received has everything you need to build your own Sweet 4x4.
+### Overzicht
+
+Het pakket dat je hebt ontvangen bevat alles wat je nodig hebt om je eigen Sweet 4x4 te bouwen.
 
 - 15 sockets
-- 15 switches
+- 15 schakelaars
 - 16 diodes
-- 6 WAS2812 LEDs
-- 2 capacitors
+- 6 WS2812 LED's
+- 2 condensatoren
 - 1 [LANA TNY](https://phyx.be/LANA_TNY/)
-- 1 pink PCB
-- Screws and standoffs `HOW MANY?`
+- 1 roze printplaat
+- Schroeven en afstandhouders `HOEVEEL?`
 
-![parts spread out](overview.jpg)
+![onderdelen uitgespreid](overview.jpg)
 
 ### Sockets
-Let's start off with the lowest components. In this case the key sockets. Place the sockets in the holes and solder the 2 SMD pads on the sides. Do this 15 times unless you do not want an encoders, then you can opt for 16 sockets and keys. (For those not wanting sockets, you can also solder your keys directly on the PCB)
+
+Laten we beginnen met de laagste componenten, in dit geval de keysockets. Plaats de sockets in de gaten en soldeer de 2 SMD-pads aan de zijkanten vast. Doe dit 15 keer, tenzij je geen encoder wilt, dan kun je kiezen voor 16 sockets en toetsen. (Voor degenen die geen sockets willen, kun je ook je toetsen direct op de printplaat solderen.)
 
 ![SMD key sockets](sockets.jpg)
 
 ### Diodes
-The 16 diodes should be bent to properly fit in the PCB. Therefor the 2 bottom corners are designed as dedicated to bending these parts. Once all the diodes are bent, you can start soldering them in the 2 circles next. The black line on the diode (the cathode) should be facing outward.
 
-![pre-bend diode](diode1.jpg)
-![bend diode](diode2.jpg)
-![solder diode](diode3.jpg)
+De 16 diodes moeten gebogen worden om goed op de printplaat te passen. De twee onderste hoeken zijn hiervoor ontworpen en speciaal bedoeld voor het buigen van deze onderdelen. Zodra alle diodes gebogen zijn, kun je beginnen met het solderen in de twee cirkels naast elkaar. De zwarte lijn op de diode (de kathode) moet naar buiten gericht zijn.
+
+![voorgebogen diode](diode1.jpg)
+![gebogen diode](diode2.jpg)
+![diode solderen](diode3.jpg)
 
 ### LANA TNY
-You can solder the[LANA TNY](https://phyx.be/LANA_TNY/) module using the supplied through hole pins OR you can SMD mount it for the lowest profile solution. When opting for the surface mount solution, you can use some of the pins to properly align the module before soldering as shown below.
 
-![LANA solder](lana.jpg)
+Je kunt de [LANA TNY](https://phyx.be/LANA_TNY/) module solderen met de meegeleverde doorvoerpennen OF je kunt het SMD solderen voor de laagste profieloplossing. Als je kiest voor de oppervlakmontage, kun je enkele pennen gebruiken om de module correct uit te lijnen voordat je het soldeert, zoals hieronder weergegeven.
 
+![LANA solderen](lana.jpg)
 
-### WS2812 LEDs
-Solder 6 WS2812 RGB LEDs on the bottom as indicated in the pictures below. Don't press the LEDs down too far to prevent damage to the LED. Also prevent shorting the LED pins with the SMD sockets pins by not bending it all the way to the board as shown in the pictures below.
+### WS2812 LED's
 
+Soldeer 6 WS2812 RGB-LED's aan de onderkant zoals aangegeven op de onderstaande afbeeldingen. Druk de LED's niet te ver naar beneden om schade aan de LED te voorkomen. Voorkom ook kortsluiting tussen de LED-pinnen en de SMD-sockets door de LED niet volledig naar de printplaat te buigen zoals weergegeven op de onderstaande afbeeldingen.
 
-![orientation of the WS2812 LEDs](ws2812_1.jpg)
-![bend the LEDs](ws2812_2.jpg)
+![oriëntatie van de WS2812 LED's](ws2812_1.jpg)
+![LED's buigen](ws2812_2.jpg)
 
-### Capacitors
-In order to reduce the total height of the keyboard, you should bend the capacitor before soldering it.
+### Condensatoren
 
-![capacitors](capacitors.jpg)
+Om de totale hoogte van het toetsenbord te verminderen, moet je de condensator buigen voordat je hem soldeert.
+
+![condensatoren](capacitors.jpg)
 
 ### Encoder
-If you like a rotary encoder, place one in the upper left corner of the key matrix and sodler the 7 pins (5 smaller and 2 bigger ones). The larger pins, used for mechanical strength, might require a lot of solder to fille the holes.
 
-![endocer mounted](encoder.jpg)
+Als je een draaischakelaar wilt, plaats deze dan in de linkerbovenhoek van de toetsenmatrix en soldeer de 7 pinnen (5 kleinere en 2 grotere). De grotere pinnen, die voor mechanische sterkte worden gebruikt, kunnen veel soldeer nodig hebben om de gaten te vullen.
 
-### Switches
-`INSERT IMAGE WITH THE PLEXI PLATE`
+![encoder gemonteerd](encoder.jpg)
 
-### Casing
-Screws? Spacers? Plexi?
+### Schakelaars
+
+`PLAATS AFBEELDING MET DE PLEXI-PLAAT`
+
+### Behuizing
+
+Schroeven? Afstandhouders? Plexi?
 
 ### Keycaps
-Snap on the keycaps of your choice.
 
-![keycaps mounted](keycaps.jpg)
+Klik de keycaps van jouw keuze erop.
+
+![keycaps gemonteerd](keycaps.jpg)
 
 ## N-key rollover
-A keyboard with n-key rollover, or abbreviated as NKRO, has the ability to scan each button press individually, as opposed to having the PC do it. As a result, every pressed button, or key, is noted, even if you’re pressing a bunch of keys simultaneously.
 
-Sometimes you'll see the "n" in n-key rollover replaced with a number. That number tells you how many keys you can press simultaneously with the keyboard being aware. For example, if your keyboard has 6-key rollover, you can press six keys at once with successful input. N-key rollover is particularly relevant/helpful for gaming keyboards.
+Een toetsenbord met n-key rollover, of afgekort NKRO, heeft de mogelijkheid om elke toets afzonderlijk te scannen, in plaats van dat de pc dit doet. Hierdoor wordt elke ingedrukte toets geregistreerd, zelfs als je meerdere toetsen tegelijkertijd indrukt.
 
-Not all keyboards come with n-key rollover, as implementing the feature comes with certain cost and design challenges.
+Soms zie je het "n" in n-key rollover vervangen door een getal. Dat getal vertelt je hoeveel toetsen je tegelijkertijd kunt indrukken terwijl het toetsenbord deze registreert. Bijvoorbeeld, als je toetsenbord 6-key rollover heeft, kun je zes toetsen tegelijk indrukken met succesvolle invoer. N-key rollover is vooral relevant/nuttig voor gaming toetsenborden.
 
-To enable n-key rollover on this macropad, break off the 2 top corners to break the short circuit and use the diodes.
+Niet alle toetsenborden hebben n-key rollover, omdat het implementeren van deze functie bepaalde kosten en ontwerpuitdagingen met zich meebrengt.
+
+Om n-key rollover op deze macropad mogelijk te maken, breek je de 2 bovenste hoeken af om de kortsluiting te verbreken en gebruik je de diodes.
 
 ## Firmware
-`INSERT INFO`
+
+`PLAATS INFO`
