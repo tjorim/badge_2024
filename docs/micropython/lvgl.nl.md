@@ -1,28 +1,30 @@
 # LVGL
 
-**NOG VERTALEN**
-
-badge_2024_micropython is build with LVLG v9.1 included
+badge_2024_micropython is gebouwd met LVLG v9.1 ingebakken.
 
 ## links
+
 - lvgl homepage https://lvgl.io/
-- lvgl documentation https://docs.lvgl.io/9.1/
+- lvgl documentatie https://docs.lvgl.io/9.1/
 
-### python examples (v8.4)
-Unfortunately for v9.x the python examples are not available any more  
-This are the main differences between v8.x and v9.x https://docs.lvgl.io/9.0/CHANGELOG.html and more specific https://docs.lvgl.io/9.0/CHANGELOG.html#general-api-changes
-- lvgl live python examples (v8.4) https://docs.lvgl.io/8.4/examples.html
-- lvgl python examples source code (v8.4) (search for *.py files) https://github.com/lvgl/lvgl/tree/v8.4.0/examples
+### python voorbeelden (v8.4)
 
-## online simulator
-There is an online micropython + lvgl (v9.0) simulator available  
-https://sim.lvgl.io/v9.0/micropython/ports/webassembly/index.html  
-This is very convenient to prototype new screens
+Spijtiggenoeg zijn de python voorbeelden niet meer beschikbaar voor v9.x
+Dit zijn de belangrijkste verschillen tussen v8.x en v9.x https://docs.lvgl.io/9.0/CHANGELOG.html en meer specifiek https://docs.lvgl.io/9.0/CHANGELOG.html#general-api-changes
 
+- lvgl interactieve python voorbeelden (v8.4) https://docs.lvgl.io/8.4/examples.html
+- lvgl python voorbeelden broncode (v8.4) (zoek voor \*.py files) https://github.com/lvgl/lvgl/tree/v8.4.0/examples
+
+## Online simulator
+
+Er is een online Micropython + lvgl (v9.0) simulator beschikbaar
+https://sim.lvgl.io/v9.0/micropython/ports/webassembly/index.html
+Dit is zeer handig om prototypes van nieuwe schermen te maken.
 
 ## Simulator Examples
 
-### button
+### knop
+
 ```python
 # Initialize
 import display_driver
@@ -41,7 +43,8 @@ label.set_text('Hello World!')
 lv.screen_load(scr)
 ```
 
-### button in a class with callback, remembering state
+### knop in een klasse met callback, onthouden van de status
+
 ```python
 
 # Initialize
@@ -55,7 +58,7 @@ disp.set_resolution(296,240)
 class CounterBtn:
     def __init__(self):
         screen = lv.screen_active()
-        
+
         screen.set_style_bg_color(lv.palette_darken(lv.PALETTE.GREY, 4), lv.PART.MAIN)
 
         self.btn = lv.button(screen)
@@ -63,7 +66,7 @@ class CounterBtn:
 
         self.lbl = lv.label(self.btn)
         self.lbl.set_text("Button")
-        
+
         self.cnt = 0
 
         self.btn.add_event_cb(self.btn_cb, lv.EVENT.ALL, None)
@@ -74,14 +77,16 @@ class CounterBtn:
         if code == lv.EVENT.CLICKED:
             self.cnt += 1
             print(self.cnt)
-        
+
             self.lbl.set_text("Button: " + str(self.cnt))
 
 
 counter_btn = CounterBtn()
 
 ```
-### wifi-config screen
+
+### wifi-config scherm
+
 ```python
 
 # Initialize
@@ -138,7 +143,7 @@ class ButtonLabel:
         lbl.align(lv.ALIGN.CENTER, 0, 0)
         btn.add_event_cb(self._bt_event_cb, lv.EVENT.CLICKED, None)
         self.cb = cb
-    
+
     def _bt_event_cb(self, event):
         # code = event.get_code()
         self.cb()
@@ -158,7 +163,7 @@ class WifiScreen:
         key = self.key_ta.ta.get_text()
         print(f"{ssid=}, {key=}")
         # TODO save
-    
+
     def _cancel_cb(self):
         print("Cancel")
         #home_screen = fri3d.screens.home.HomeScreen()
@@ -202,7 +207,7 @@ class WifiScreen:
         # save button
         sv = ButtonLabel(screen, lv.SYMBOL.OK + " Save", self._save_cb)
         sv.btn.align(lv.ALIGN.RIGHT_MID, -5, 0)
-        
+
         # cancel button
         cancel = ButtonLabel(screen, lv.SYMBOL.CLOSE + " Cancel", self._cancel_cb)
         cancel.btn.align(lv.ALIGN.LEFT_MID, 5, 0)
@@ -215,7 +220,9 @@ w.load()
 ```
 
 ### canvas
-red border around a golden background
+
+Rode rand rond een gouden achtergrond
+
 ```python
 # Initialize
 import display_driver
@@ -255,10 +262,10 @@ lv.draw_rect(layer, dsc, a)
 canvas.finish_layer(layer)
 ```
 
+## Badge voorbeelden
 
-## real examples
+### Laad een png afbeelding
 
-### load png image
 ```python
 # load fri3d_logo-min.png
 png = open('fri3d_logo-min.png', 'rb')
