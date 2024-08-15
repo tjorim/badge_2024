@@ -22,7 +22,7 @@ To switch back you need to do this:
 ## Badge Examples
 There are examples installed on the badge itself.
 
-You can explore these with (ViperIDE)[https://drskunk.github.io/ViperIDE/]
+You can explore these with [ViperIDE](https://fri3dcamp.github.io/viper/)
 
 ## Flash the default fri3d micropython firmware
 download firmware from
