@@ -16,7 +16,7 @@ Het project bestaat uit een "lanceerder" en een selectie van de beste applicatie
 	- Audio out: "Buzzer" die op de badge zit (stil en lage kwaliteit) of "Ext(ernal) DAC" voor de [Communicator](../communicator/) of andere externe luidsprekers
 	- Wi-Fi opties:
 		- Wi-Fi Access Point: activeer deze, verbind met de hotspot en surf naar http://192.168.4.1/ om de bestanden op de badge te beheren
-- `Y`: Menu met "Find games" om te [zoeken naar spelletjes die je nog niet hebt bij je vrienden](#spelletjes-zoeken)
+- `Y`: Menu met "Find games" om te [zoeken op de badge van je vrienden naar spelletjes die jij nog niet hebt](#spelletjes-zoeken)
 - `A`: Actie
 - `B`: Terug
 - Boven/Onder: menuinstelling selecteren
@@ -111,7 +111,7 @@ Er zijn nog andere systemen ondersteund maar deze zijn niet geactiveerd op de Fr
 - Meerdere spelstatussen bewaren per spel
 - Bestanden beheren via draadloos netwerk
 - Vriend-naar-vriend spel ROMs delen
-- Aansturing van piezoelektrische zoemer as primitieve luidspreker
+- Aansturing van piezoelektrische zoemer als primitieve luidspreker
 - Ondersteuning voor Fri3d Camp 2024 "Communicator" en andere externe luidsprekers
 
 ### Schermafdrukken

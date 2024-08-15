@@ -11,28 +11,28 @@ Zoek naar de "badge reset firmware" booth op het kamp. We hebben alles voorzien 
 
 ## Web interface
 
-De online flasher app werkt enkel met browsers gebaseerd op chrome based (Chrome, Edge) (niet Firefox, Safari).
+De online flasher app werkt enkel met browsers gebaseerd op chrome(Chrome of Edge, niet Firefox of Safari).
 
 1. download de meest recente `full_webflasher_*.zip` van <https://github.com/Fri3dCamp/badge_firmware/releases>
 2. ga naar <https://fri3d-flasher.vercel.app/>
-3. klik icoon om de zip file te uploaden die je zonet hebt gedownload
-4. klik "begin te flashen" knop
+3. klik op het icoon om de zip file te uploaden die je zonet hebt gedownload
+4. klik op de "begin te flashen" knop
 
 Als het flashen mislukt omdat je badge elke zoveel seconden reset, kan je ze als volgt "forceren" om te luisteren naar een nieuwe upload:
 
-1. Klik en houd de "start" knop (Op ESP32 heet dit de "boot button")
-2. Klik en laat los de "reset" knop
+1. Klik en houd de "start" knop in(Op ESP32 heet dit de "boot button")
+2. Klik en laat de "reset" knop los
 3. Je badge staat nu in "download" mode tot je opnieuw reset duwt
 
 Je badge start nu in de default Fri3d App.
 
 ## ESP-IDF
 
-This is the complicated version. Only worth it if the web flasher failed.
+Dit is de ingewikkelde versie en is het enkel waard als de web flasher niet werkt.
 
 1. Als je badge om de paar seconden spontaan reset, kan je ze als volgt "forceren" om te luisteren naar een nieuwe upload:
-    11. Klik en houd de "start" knop (Op ESP32 heet dit de "boot button")
-    12. Klik en laat los de "reset" knop
+    11. Klik en houd de "start" knop in (Op ESP32 heet dit de "boot button")
+    12. Klik en laat de "reset" knop los
     13. Je badge staat nu in "download" mode tot je opnieuw reset duwt
 2. installeer ESP-IDF <https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html#installation>
 3. Download de meest recente firmware op <https://github.com/Fri3dCamp/badge_2024_micropython>

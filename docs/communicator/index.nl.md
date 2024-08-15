@@ -2,7 +2,7 @@
 
 ## Communicator eigenschappen
 
-The communicator bestaat uit:
+De communicator bestaat uit:
 
 - QWERTY toetsenbord met achtergrond verlichting ontworpen door [Solder Party](https://www.solder.party/)
 - op RISC-V gebaseerd microcontroller module [LANA TNY](https://phyx.be/LANA_TNY/)
@@ -34,27 +34,27 @@ Het pakje dat je ontvangen hebt bevat alles wat je nodig hebt om de communicator
 
 ### Monteer de luidspreker
 
-Verwijder de plastieken laag om de luidspreker op de printplaat te kleven. Soldeer de 2 draden op de printplaat. De rode draad moet naar het soldeervlak gaan dat gemarkeerd is met een `+`
+Verwijder de plastieken laag om de luidspreker op de printplaat te kleven. Soldeer de 2 draden op de printplaat zoals op de foto hieronder. De rode draad moet naar het soldeervlak gaan dat gemarkeerd is met een `+`
 
 ![luidspreker gesoldeerd](speaker.jpg)
 ![luidspreker achter aanzicht](speaker2.jpg)
 
 ### Soldeer de lange pinnen
 
-Plaatse de langen pinnen aan de zijde met alle componenten. Je kan een andere vrouwelijke connector (of zelfs de badge) gebruiken om de 2 losse pinnen stroken netje gealigneerd te houden tijdens het solderen.
+Plaats de lange pinnen aan de zijde met alle componenten. Je kan een andere vrouwelijke connector (of zelfs de badge) gebruiken om de 2 losse pinnen stroken netjes op een rijtje te houden tijdens het solderen.
 
 ![pinnen gesoldeerd](headers.jpg)
 
 ### Monteer het toetsenbord
 
-Duw de 2mm lange plastieken pinnetjes in de roze cover. Let het siliconen toetsenbord er in en klik het geheel op de communicator printplaat.
+Duw de 2mm lange plastieken pinnetjes in de roze cover zoals getoond op de foto's hieronder. Leg het siliconen toetsenbord er in en klik het geheel op de communicator printplaat.
 
 ![2mm pinngen geplaats, closeup](pink_spacer.jpg)
 ![2mm pinngen geplaats](pink_spacer_overview.jpg)
 ![toetsenbord in afdekplaat](pink_keyboard.jpg)
 ![toetsenbord gemonteerd](pink_mounted.jpg)
 
-### Connecteer de communicator met de badge
+### Verbind de communicator met de badge
 
 Duw de 16mm lange plastieken pinnetjes in de 4 gaten die overeenkomen met de badge. Verwijder de beschermende achterplaat en duw de communicator op zijn plaats.
 
@@ -64,7 +64,7 @@ Duw de 16mm lange plastieken pinnetjes in de 4 gaten die overeenkomen met de bad
 ## Gebruik
 
 Het toetsenbord doet zich voor als een HID input toestel.
-met de `Fn` toets kan je speciale functies activeren:
+Met de `Fn` toets kan je speciale functies activeren:
 
 - `Fn+Rood Vierkant`: Maak de LED op LANA rood
 - `Fn+Oranje Driehoek`: Maak de LED op LANA oranje
