@@ -1,28 +1,37 @@
-# Fri3d Camp 2024 Badge
+# Fri3d Camp 2024 Badge en Addons
 
-Proficiat met je coole nieuwe badge! Maar wat kan je er zoal mee doen? ;-)
+[**Update je Badge!**](onboarding/firstupdate)
+
+Zoek je info voor een van deze borden? Klik dan onmiddellijk door naar die pagina.
+
+<div style="display: grid;grid-gap:1rem;grid-template-columns: repeat(2, 1fr);">
+
+<a href="/badge_2024/flamingo"><img src="flamingo/done.jpg" alt="Flamingo"/></a>
+<a href="/badge_2024/noisycricket/"><img src="noisycricket/pin_header_alternate_orientation.png" alt="Noisy Cricket"/></a>
+<a href="/badge_2024/communicator/"><img src="communicator.webp" alt="Communicator"/></a>
+<a href="/badge_2024/onboarding/"><img src="badge2024.jpg" alt="Badge 2024"/></a>
+
+</div>
 
 ## Spelen!
 
 Je moet geen programmeer-goochelaar te zijn om leuke dingen te doen!
-Op de [Onboarding](onboarding) pagina zie je de dingen die standaard al ingebouwd zijn.
+Op de [Onboarding](onboarding) pagina zie je de dingen die standaard al ingebouwd zijn. Je kan ook doorklikken naar de [gaming pagina](../Retro--Go-Gaming)
 
-![badge image place holder](badge2024.jpg)
+![badge 2024](badge2024.jpg)
 
 ## Programmeren
 
-Om te programmeren (en bugs te vermijden) heb je de juiste tools nodig...
+Je kan jouw badge op verschillende manieren programmeren:
 
-![Choose your tools](weapons.jpg)
-
-- Je kan **C++** gebruiken in de [Arduino editor](arduino), of in [Visual Studio Code](platformio)
+- Je kan **C++** in de [Arduino editor](arduino), of [Visual Studio Code](platformio)
 - Wie liever [Python](micropython) programmeert, kan gelijk welke tekst editor gebruiken, maar Visual Studio Code geeft je wel wat extras.
 - Om je badge te laten babbelen met je smart home is er [esphome](esphome). Je kan de command line gebruiken of het esphome dashboard.
 - Als je liever niet typt, kan je blokjes slepen met [bipes](bipes), een beetje zoals Scratch
 
 ## Reset Standaard Firmware
 
-Zie [Hoe resetten](reset)
+Start je badge niet meer op of wil je terug naar de originele software gaan. Wandel dan even naar de badge / soldeer tent waar je het badge repair station zal vinden. Op deze PC kan je stapsgewijze instructies volgen om alle borden terug te flashen. Of zie [hier hoe je ze zelf kan resetten](reset)
 
 ## Documentatie
 
