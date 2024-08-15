@@ -1,5 +1,29 @@
 # MicroPython documentation
 
+## Start micropython
+Ensure your badge is upgraded to the latest version.
+Boot the badge in de main menu and choose 'MicroPython'. The badge reboots and you get a black screen (the dark magic is inside).
+
+By default, the badge will not reboot into MicroPython on reset.
+Should you want this, you need to confirm the switch to MicroPython was successful.
+You can do this like this:
+
+```
+    from fri3d import boot
+    boot.persist()
+```
+Note that now you no longer can get back to the main menu.
+To switch back you need to do this:
+```
+    from fri3d import boot
+    boot.main_menu()
+```
+
+## Badge Examples
+There are examples installed on the badge itself.
+
+You can explore these with (ViperIDE)[https://drskunk.github.io/ViperIDE/]
+
 ## Flash the default fri3d micropython firmware
 download firmware from
 https://github.com/cheops/fri3d-ota/tree/main/ota/fri3d_badge_2024  
