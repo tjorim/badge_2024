@@ -12,6 +12,7 @@ The makers of [Embeetle](https://embeetle.com/) have also been so kind to [add t
 &nbsp;<br>
 ## STEP 1: Download Embeetle IDE
 First download Embeetle at [https://embeetle.com/downloads](https://embeetle.com/#embeetle-ide/download). You can download it for either Windows or Linux.
+
 <img src="https://github.com/user-attachments/assets/59498d20-e134-4101-98d4-90c1bf618ca1" width="400">
 
 &nbsp;<br>
@@ -22,7 +23,8 @@ As a Belgian company, we decided to put the `lana-tny-01-blaster-2024` project f
 
 Then select `WCH` for the vendor (that's the vendor of the microcontroller) and look for the project `lana-tny-01-blaster-2024`:
 
-<img src="https://github.com/user-attachments/assets/a00f00fb-5c35-4ee6-9703-bc0f17b03a32" width="600">
+<img src="https://github.com/user-attachments/assets/9351d454-d978-404a-a586-55c1118d5d01" width="600">
+
 
 Now click `CREATE` at the bottom. Embeetle IDE will download the sample project and also all the required tools automatically. Then Embeetle opens the project:
 
@@ -109,7 +111,7 @@ WRP: 0xFFFFFFFF
 
 ## STEP 4b: Add device to plugdev group (Linux only)
 On Linux you'll have to add the device to the plugdev group. You can find the documentation here:
-https://embeetle.com/#supported-hardware/wch/boards/lana-tny-01  >  3.Installation > 3.1 Flash firmware over USB-C port > Linux
+[https://embeetle.com/#supported-hardware/wch/boards/lana-tny-01](https://embeetle.com/#supported-hardware/wch/boards/lana-tny-01)  >  3.Installation > 3.1 Flash firmware over USB-C port > Linux
 
 Send a whatsapp msg to me if it doesn't work:
 +32 496 90 75 44
