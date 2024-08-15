@@ -23,7 +23,7 @@ As a Belgian company, we decided to put the `lana-tny-01-blaster-2024` project f
 
 Then select `WCH` for the vendor (that's the vendor of the microcontroller) and look for the project `lana-tny-01-blaster-2024`:
 
-<img src="https://github.com/user-attachments/assets/9351d454-d978-404a-a586-55c1118d5d01" width="600">
+<img src="https://github.com/user-attachments/assets/a00f00fb-5c35-4ee6-9703-bc0f17b03a32" width="600">
 
 
 Now click `CREATE` at the bottom. Embeetle IDE will download the sample project and also all the required tools automatically. Then Embeetle opens the project:
