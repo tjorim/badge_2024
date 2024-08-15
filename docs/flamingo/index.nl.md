@@ -40,24 +40,24 @@ Het pakket dat u hebt ontvangen, bevat alles wat u nodig hebt om uw eigen flamin
 Er is geen verkeerde volgorde om de onderdelen te solderen, maar we raden aan om eerst met de laagste componenten te beginnen.
 
 ### Weerstanden
-Het pakket bevat een grotere 33R weerstand en een kleinere 1k weerstand.
+Het pakket bevat een grotere 33R weerstand en een kleinere 1k weerstand. Soldeer ze op de aangegeven plek op het bord. Zie de foto hieronder.
 
 ![weerstanden gemonteerd](resistors.jpg)
 
 ### Teamschakelaar en luidspreker
-De volgende componenten met een laag profiel zijn de zoemer en de teamschakelaar. Monteer de schakelaar met de actuator weg van de PCB gericht.
+De volgende componenten met een laag profiel zijn de zoemer en de teamschakelaar. Monteer de schakelaar met de actuator weg van de PCB (= de printplaat waarop je aan het solderen bent) gericht. Zet ze op de plek zoals aangegeven op de foto.
 
 ![teamschakelaar en zoemer gemonteerd](switch_speaker.jpg)
 
 ### IR-LED
-De infrarood-LED heeft wel een polariteit. Als u hem verkeerd om monteert, werkt de blaster niet. De lange pin van de LED moet in het vierkante gat met het `+`-symbool ernaast. Zorg ervoor dat u wat ruimte overlaat om de LED naar voren te buigen (of nog beter, buig hem voordat u hem soldeert!)
+De infrarood-LED heeft wel een polariteit. Als u hem verkeerd om monteert, werkt de blaster niet. De lange pin van de LED moet in het vierkante gat met het `+` symbool ernaast. Zorg ervoor dat u wat ruimte overlaat om de LED naar voren te buigen (of nog beter, buig hem voordat u hem soldeert, zoals op de foto!)
 
 ![IR-LED voor het solderen](IR_LED.jpg)
 
 ![IR-LED gesoldeerd](IR_LED2.jpg)
 
 ### IR-ontvangers
-De montagerichtingen van de 2 IR-ontvangers worden aangegeven door een pijl. Deze pijl wijst in de richting waarin de pinnen moeten gaan.
+De montagerichtingen van de 2 IR-ontvangers worden aangegeven door een pijl. Deze pijl wijst in de richting van de gaatjes waarin de pinnen moeten gaan (zie foto).
 
 ![IR-ontvanger aan de componentzijde](IR_rx.jpg)
 
@@ -71,7 +71,7 @@ De RGB-LED's hebben 4 aansluitingen, de langste aansluiting moet in het gat met 
 ![RGB-LED's gesoldeerd](RGB_LED2.jpg)
 
 ### Triggerknop
-Als u rechtshandig bent, soldeert u de drukknop aan de zijkant met alle andere componenten.
+Als u rechtshandig bent, soldeert u de drukknop aan de zijkant met alle andere componenten. Als u linkshandig bent soldeer je de drukknop in dezelfde gaten aan de kant zonder componenten.
 
 ![Triggerschakelaar gemonteerd](switch.jpg)
 
@@ -83,9 +83,9 @@ Gebruik de grote en de losse enkele pinheader om de [LANA TNY](https://phyx.be/L
 ![LANA-pinnen](LANA_pins.jpg)
 
 ### Condensatoren
-De grote blauwe condensator, net als de IR-LED, heeft een lange pin die de anode van dit onderdeel aangeeft. Deze langere pin moet in het gat met het `+`-symbool worden geplaatst.
+De grote blauwe condensator, net als de IR-LED, heeft een lange pin die de anode van dit onderdeel aangeeft. Deze langere pin moet in het gat met het `+` symbool worden geplaatst.
 
-De kleinere gele condensatoren hebben geen polriteit en kunnen op beide manieren worden gemonteerd.
+De kleinere gele condensatoren hebben geen polariteit en kunnen op beide manieren worden gemonteerd. Soldeer ze op de aangegeven plaats (zie foto).
 
 ![Grote condensator gemonteerd](capacitor.jpg)
 
@@ -108,7 +108,7 @@ Nu hoeft u alleen nog maar de badge-linkconnector aan uw badge toe te voegen. Mo
 
 ![badge link connector gesoldeerd](badge_link3.jpg)
 
-Let op dat er geen kortsluiting is tussen de voorste pin en de decoratie van de badge!
+Let op dat er geen kortsluiting is tussen de voorste pin en de decoratie van de badge! Soldeer fijn en met minimaal soldeersel! (zie foto)
 
 ![badge link connector nakijken](badge_link4.jpg)
 
