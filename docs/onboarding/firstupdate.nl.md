@@ -29,3 +29,5 @@ Na de update herstart de badge automatisch.
 Na de update is de optie "hardware test" verdwenen en staat er in de plaats "MicroPython"
 
 ![](8_menu_after_upgrade.jpg)
+
+Je badge is nu voorzien van de (voorlopig) laatste firmware
