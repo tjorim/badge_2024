@@ -45,7 +45,7 @@ The package contains a larger 33R resistor and a smaller 1k resistor.
 ![resistors mounted](resistors.jpg)
 
 ### Team switch and speaker
-The next components with a low profile are the buzzer and the team switch. Mount the switch with the actuator facing away from the PCB.
+The next components with a low profile are the buzzer buzzer (no polarity) and the team switch. Mount the switch with the actuator facing away from the PCB.
 
 ![team switch and buzzer mounted](switch_speaker.jpg)
 
