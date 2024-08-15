@@ -1,5 +1,5 @@
 # Programming the LANA Module
-To program the blaster (flamingo) you can use [Embeetle IDE](https://embeetle.com/) or [Mounriver Studio](http://www.mounriver.com/). 
+To program the blaster (flamingo) and the communicator you can use [Embeetle IDE](https://embeetle.com/) or [Mounriver Studio](http://www.mounriver.com/). 
 
 # Embeetle
 A nicer alternative is [Embeetle](https://embeetle.com/). this is an IDE of Belgian make. This is not open source but does produce an open toolchain when creating a new project.
@@ -12,19 +12,17 @@ The makers of [Embeetle](https://embeetle.com/) have also been so kind to [add t
 &nbsp;<br>
 ## STEP 1: Download Embeetle IDE
 First download Embeetle at [https://embeetle.com/downloads](https://embeetle.com/#embeetle-ide/download). You can download it for either Windows or Linux.
-
 <img src="https://github.com/user-attachments/assets/59498d20-e134-4101-98d4-90c1bf618ca1" width="400">
 
 &nbsp;<br>
-## STEP 2: Launch the `lana-tny-01-blaster-2024` project
-As a Belgian company, we decided to put the `lana-tny-01-blaster-2024` project for our Belgian friends on the Embeetle server! Launch Embeetle and click 'CREATE PROJECT':
+## STEP 2: Launch the `lana-tny-01-communicator-2024` project
+As a Belgian company, we decided to put the `lana-tny-01-communicator-2024` project for our Belgian friends on the Embeetle server! Launch Embeetle and click 'CREATE PROJECT':
 
 <img src="https://github.com/user-attachments/assets/8d881776-0d6e-4dac-a253-c3d7d610ed76" width="600">
 
-Then select `WCH` for the vendor (that's the vendor of the microcontroller) and look for the project `lana-tny-01-blaster-2024`:
+Then select `WCH` for the vendor (that's the vendor of the microcontroller) and look for the project `lana-tny-01-communicator-2024`:
 
-<img src="https://github.com/user-attachments/assets/a00f00fb-5c35-4ee6-9703-bc0f17b03a32" width="600">
-
+<img src="https://github.com/user-attachments/assets/9351d454-d978-404a-a586-55c1118d5d01" width="600">
 
 Now click `CREATE` at the bottom. Embeetle IDE will download the sample project and also all the required tools automatically. Then Embeetle opens the project:
 
