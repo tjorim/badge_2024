@@ -54,9 +54,26 @@ Als je graag wil zoeken naar spelletjes die je nog niet hebt op de badge van een
 
 Het werkt in 3 stappen:
 
-1. **je vriend zet zijn hotspot aan** *(X knop -> "Wi-Fi options" -> "Wi-Fi Access Point" en kiest er eentje, bijvoorbeeld "retro-go-channel-8")*
-2. **jij verbindt met zijn hotspot** *(X knop -> "Wi-Fi options" -> "Wi-Fi select" -> "retro-go-channel-8" die je vriend koos)*
-3. **jij zoekt naar spelletjes** *(Y knop -> "Find games" -> kies welke soort spelletjes je wil zoeken)*
+1) **je vriend zet zijn hotspot aan** *(X knop -> "Wi-Fi options" -> "Wi-Fi Access Point" en kiest er eentje, bijvoorbeeld "retro-go-channel-8")*
+
+![1](find-games/IMG_20240815_085800164_HDR.jpg) ![2](find-games/IMG_20240815_085813691.jpg)
+![3](find-games/IMG_20240815_085830461_HDR.jpg)
+![4](find-games/IMG_20240815_085843882.jpg)
+
+
+2) **jij verbindt met zijn hotspot** *(X knop -> "Wi-Fi options" -> "Wi-Fi select" -> "retro-go-channel-8" die je vriend koos)*
+
+![5](find-games/IMG_20240815_085935971_HDR.jpg)
+![6](find-games/IMG_20240815_085945370_HDR.jpg)
+![7](find-games/IMG_20240815_085955785_HDR.jpg)
+![7](find-games/IMG_20240815_085955786.jpg)
+
+3) **jij zoekt naar spelletjes** *(Y knop -> "Find games" -> kies welke soort spelletjes je wil zoeken)*
+
+![8](find-games/IMG_20240815_090013986.jpg)
+![9](find-games/IMG_20240815_090021780.jpg)
+![10](find-games/IMG_20240815_090101521_HDR.jpg)
+![11](find-games/IMG_20240815_090132268.jpg)
 
 Dit kan even duren, maar als je het beu bent kan je het altijd stoppen door je badge te herstarten.
 Mocht er een fout optreden, probeer dan eens opnieuw - hij slaat spelletjes over die je al hebt.
