@@ -30,3 +30,5 @@ After the update, the badge will restart spontanuously
 After the update, the option "hardware test" will no longer be available and the option "MicroPython" will have appeared
 
 ![](8_menu_after_upgrade.jpg)
+
+Your badge is now upgraded to the (current) latest firmware
