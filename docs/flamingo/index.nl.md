@@ -45,7 +45,7 @@ Het pakket bevat een grotere 33R weerstand en een kleinere 1k weerstand. Soldeer
 ![weerstanden gemonteerd](resistors.jpg)
 
 ### Teamschakelaar en luidspreker
-De volgende componenten met een laag profiel zijn de zoemer en de teamschakelaar. Monteer de schakelaar met de actuator weg van de PCB (= de printplaat waarop je aan het solderen bent) gericht. Zet ze op de plek zoals aangegeven op de foto.
+De volgende componenten met een laag profiel zijn de zoemer en de teamschakelaar. De zoemer heeft geen polariteit. Monteer de schakelaar met de actuator weg van de PCB (= de printplaat waarop je aan het solderen bent) gericht. Zet ze op de plek zoals aangegeven op de foto.
 
 ![teamschakelaar en zoemer gemonteerd](switch_speaker.jpg)
 
