@@ -1,7 +1,7 @@
 # Programming the LANA Module
 To program the blaster (flamingo) you can use [Embeetle IDE](https://embeetle.com/) or [Mounriver Studio](http://www.mounriver.com/). 
 
-## Embeetle
+# Embeetle
 A nicer alternative is [Embeetle](https://embeetle.com/). this is an IDE of Belgian make. This is not open source but does produce an open toolchain when creating a new project.
 
 [LANA](https://phyx.be/LANA_TNY/) can be programmed with [Embeetle](https://embeetle.com/) via the USB connector but also with the [WCH-Link debugger]
@@ -9,10 +9,12 @@ A nicer alternative is [Embeetle](https://embeetle.com/). this is an IDE of Belg
 
 The makers of [Embeetle](https://embeetle.com/) have also been so kind to [add the LANA board and very nice documentation](https://embeetle.com/#supported-hardware/wch/boards/lana-tny-01).
 
+&nbsp;<br>
 ## STEP 1: Download Embeetle IDE
 First download Embeetle at [https://embeetle.com/downloads](https://embeetle.com/#embeetle-ide/download). You can download it for either Windows or Linux.
 <img src="https://github.com/user-attachments/assets/59498d20-e134-4101-98d4-90c1bf618ca1" width="400">
 
+&nbsp;<br>
 ## STEP 2: Launch the `lana-tny-01-blaster-2024` project
 As a Belgian company, we decided to put the `lana-tny-01-blaster-2024` project for our Belgian friends on the Embeetle server! Launch Embeetle and click 'CREATE PROJECT':
 
@@ -22,17 +24,26 @@ Then select `WCH` for the vendor (that's the vendor of the microcontroller) and 
 
 <img src="https://github.com/user-attachments/assets/a00f00fb-5c35-4ee6-9703-bc0f17b03a32" width="600">
 
-
 Now click `CREATE` at the bottom. Embeetle IDE will download the sample project and also all the required tools automatically. Then Embeetle opens the project:
 
 ![image](https://github.com/user-attachments/assets/caac076a-4451-4286-8899-637ecab647cd)
 
+&nbsp;<br>
+## STEP 3: Flash the firmware
 Now click the `flash` button at the top. You might experience the following error now:
 ```
 Failed to open USB device: Bus 001 Device 008: ID 4348:55e0
 Error: Failed to open USB device on Windows
 ```
+On Linux you might experience another issue:
+```
+Failed to open USB device: Bus 003 Device 010: ID 4348:55e0
+Error: Failed to open USB device on Linux due to no enough permission
+```
+Let's fix this.
 
+&nbsp;<br>
+## STEP 4a: Install Zadig (Windows only)
 You must install [Zadig](https://zadig.akeo.ie/) and replace the driver for the USB device with the WinUSB driver. First, [download Zadig](https://zadig.akeo.ie/): 
 
 <img src="https://github.com/user-attachments/assets/d537fe6a-de71-48dd-9269-857ddcadfe81" width="600">
@@ -95,6 +106,10 @@ WRP: 0xFFFFFFFF
 14:57:08 [INFO] Now reset device and skip any communication errors
 14:57:08 [INFO] Device reset
 ```
+
+## STEP 4b: Add device to plugdev group (Linux only)
+On Linux you'll have to add the device to the plugdev group. You can find the documentation here:
+https://embeetle.com/#supported-hardware/wch/boards/lana-tny-01  >  3.Installation > 3.1 Flash firmware over USB-C port > Linux
 
 Send a whatsapp msg to me if it doesn't work:
 +32 496 90 75 44
