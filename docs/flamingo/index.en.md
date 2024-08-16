@@ -1,5 +1,14 @@
 # Big Flamingo Gun 9000
 
+To make your Flamingo Gun working, you have to go through two phases:
+- Hardware: assemble the hardware (soldering).
+- Software: flash the firmware (embedded software) to the LANA module on your Flamingo Gun.
+
+The Hardware assembly process is laid out on this page. For the software, check out <a href="https://fri3dcamp.github.io/badge_2024/en/flamingo/programming/">this page</a>.
+
+&nbsp;<br>
+# HARDWARE
+
 ## Features
 The flamingo blaster is built around basic components: 
 
@@ -115,7 +124,13 @@ Make sure there is no short circuit between the single pin and the decorative de
 ![badge link connector check](badge_link4.jpg)
 
 ## Notes
-
-Firmware updates can be flashed through the badge flash station in the solder area.
-
 Hardware design files and Firmware sources can be found in [the GitHub repository.](https://github.com/Fri3dCamp/blaster_2024)
+
+
+&nbsp;<br>
+# SOFTWARE (FIRMWARE)
+Normally, the firmware on your LANA module is already pre-flashed. If it doesn't work: the firmware can be flashed through the badge flash station in the solder area.
+
+If you want to update the firmware, or you want to flash your own, you can do so with your own laptop as shown on <a href="https://fri3dcamp.github.io/badge_2024/en/flamingo/programming/">this page</a>.
+
+
