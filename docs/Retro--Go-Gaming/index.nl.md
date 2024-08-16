@@ -7,6 +7,11 @@ Het project bestaat uit een "lanceerder" en een selectie van de beste applicatie
 
 ![Badge](Badge_Front.png)
 
+### Algemene knoppen
+
+- `RESET`: herstart de huidige app
+- `START+MENU` samen: Ga uit Retro-Go, terug naar de Fri3d App
+
 ### Knoppen in de lanceerder
 
 - `Menu`: Vorige scherm
@@ -37,14 +42,9 @@ Het project bestaat uit een "lanceerder" en een selectie van de beste applicatie
 - `A`: Schieten (of slaan)
 - `B`: Snel of zijwaarts lopen
 
-### Algemene knoppen
-
-- `RESET`: herstart de huidige app
-- `START+MENU` samen: Ga uit Retro-Go, terug naar de Fri3d App
-
 ## SD Kaartje of intern opslaggeheugen
 
-De badge zal proberen de micro SD kaart (geformatteerd als FAT32) te gebruiken en als dat niet lukt, het interne opslaggeheugen.
+De badge zal proberen de micro SD kaart (geformatteerd als FAT) te gebruiken en als dat niet lukt, het interne opslaggeheugen.
 
 Als je een nieuwe micro SD kaart insteekt, is het aangeraden om dit eerst te vullen met de laaste nieuwe `default_files_config_and_games.zip` van [de releases pagina](https://github.com/Fri3dCamp/badge_retro-go/releases) zodat je alle juiste standaard instellingen hebt, zoals de wifi netwerken.
 
@@ -110,7 +110,7 @@ Er zijn nog andere systemen ondersteund maar deze zijn niet geactiveerd op de Fr
 - Hoesjes en voorbeeldweergave van bewaarde spelstatus
 - Meerdere spelstatussen bewaren per spel
 - Bestanden beheren via draadloos netwerk
-- Vriend-naar-vriend spel ROMs delen
+- Vriend-naar-vriend spelletjes ROMs delen
 - Aansturing van piezoelektrische zoemer als primitieve luidspreker
 - Ondersteuning voor Fri3d Camp 2024 "Communicator" en andere externe luidsprekers
 
