@@ -110,7 +110,7 @@ Er zijn nog andere systemen ondersteund maar deze zijn niet geactiveerd op de Fr
 - Hoesjes en voorbeeldweergave van bewaarde spelstatus
 - Meerdere spelstatussen bewaren per spel
 - Bestanden beheren via draadloos netwerk
-- Vriend-naar-vriend spel ROMs delen
+- Vriend-naar-vriend spelletjes ROMs delen
 - Aansturing van piezoelektrische zoemer als primitieve luidspreker
 - Ondersteuning voor Fri3d Camp 2024 "Communicator" en andere externe luidsprekers
 
