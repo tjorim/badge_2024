@@ -6,7 +6,7 @@ Zoek je info voor een van deze borden? Klik dan onmiddellijk door naar die pagin
 
 <div style="display: grid;grid-gap:1rem;grid-template-columns: repeat(2, 1fr);">
 
-<a href="/badge_2024/flamingo"><img src="flamingo/done.jpg" alt="Flamingo"/></a>
+<a href="/badge_2024/flamingo"><img src="flamingo/flamingo.jpg" alt="Flamingo"/></a>
 <a href="/badge_2024/noisycricket/"><img src="noisycricket/pin_header_alternate_orientation.png" alt="Noisy Cricket"/></a>
 <a href="/badge_2024/communicator/"><img src="communicator.webp" alt="Communicator"/></a>
 <a href="/badge_2024/onboarding/"><img src="badge2024.jpg" alt="Badge 2024"/></a>

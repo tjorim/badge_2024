@@ -9,7 +9,7 @@ Standaard software ("Fri3d App") kan je bedienen met de `X` (op), `Y` (neer), `A
 - OTA Update: hiermee kan je de laatste versie van de software installeren via Wi-Fi
 - MicroPython: deze start MicroPython op
 - Hardware test: een programma waarmee we elke badge getest hebben op werking
-- Retro-Go Gaming: een emulator om Nintendo Entertainment System (NES), Gameboy, Gameboy Color en Doom games te kunnen spelen op de badge
+- [Retro-Go Gaming](../Retro--Go-Gaming): een emulator om Nintendo Entertainment System (NES), Gameboy, Gameboy Color en Doom games te kunnen spelen op de badge
 
 ## Flamingo
 
