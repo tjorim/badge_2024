@@ -44,7 +44,7 @@ Het project bestaat uit een "lanceerder" en een selectie van de beste applicatie
 
 ## SD Kaartje of intern opslaggeheugen
 
-De badge zal proberen de micro SD kaart (geformatteerd als FAT32) te gebruiken en als dat niet lukt, het interne opslaggeheugen.
+De badge zal proberen de micro SD kaart (geformatteerd als FAT) te gebruiken en als dat niet lukt, het interne opslaggeheugen.
 
 Als je een nieuwe micro SD kaart insteekt, is het aangeraden om dit eerst te vullen met de laaste nieuwe `default_files_config_and_games.zip` van [de releases pagina](https://github.com/Fri3dCamp/badge_retro-go/releases) zodat je alle juiste standaard instellingen hebt, zoals de wifi netwerken.
 

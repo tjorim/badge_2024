@@ -45,7 +45,7 @@ The project consists of a "launcher" and a selection of the best applications an
 
 ## SD Card or internal storage
 
-The badge will try to use the micro SD card (formatted as FAT32) and if that fails, the internal storage.
+The badge will try to use the micro SD card (formatted as FAT) and if that fails, the internal storage.
 
 When you insert a new micro SD card, it is recommended to first fill it with the latest `default_files_config_and_games.zip` from [the releases page](https://github.com/Fri3dCamp/badge_retro-go/releases) so that you have all the correct default settings, such as wifi networks.
 
