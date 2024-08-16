@@ -7,6 +7,11 @@ The project consists of a "launcher" and a selection of the best applications an
 
 ![Badge](Badge_Front.png)
 
+### General buttons
+
+- `RESET`: restart the current app
+- `START+MENU` together: Exit Retro-Go, return to the Fri3d App
+
 ### Launcher buttons
 
 - `Menu`: Previous screen
@@ -37,10 +42,6 @@ The project consists of a "launcher" and a selection of the best applications an
 - `A`: Shoot (or hit)
 - `B`: Walk fast or sideways
 
-### General buttons
-
-- `RESET`: restart the current app
-- `START+MENU` together: Exit Retro-Go, return to the Fri3d App
 
 ## SD Card or internal storage
 

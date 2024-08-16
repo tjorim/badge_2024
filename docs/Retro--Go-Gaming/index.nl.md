@@ -7,6 +7,11 @@ Het project bestaat uit een "lanceerder" en een selectie van de beste applicatie
 
 ![Badge](Badge_Front.png)
 
+### Algemene knoppen
+
+- `RESET`: herstart de huidige app
+- `START+MENU` samen: Ga uit Retro-Go, terug naar de Fri3d App
+
 ### Knoppen in de lanceerder
 
 - `Menu`: Vorige scherm
@@ -36,11 +41,6 @@ Het project bestaat uit een "lanceerder" en een selectie van de beste applicatie
 - `Y`: Spel Menu
 - `A`: Schieten (of slaan)
 - `B`: Snel of zijwaarts lopen
-
-### Algemene knoppen
-
-- `RESET`: herstart de huidige app
-- `START+MENU` samen: Ga uit Retro-Go, terug naar de Fri3d App
 
 ## SD Kaartje of intern opslaggeheugen
 
