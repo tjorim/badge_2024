@@ -1,5 +1,14 @@
 # Communicator add-on
 
+Om je communicator te doen werken, moet je door twee fases:
+- Hardware: assembleer de hardware (solderen).
+- Software: flash de firmware (embedded software) naar de LANA module op je communicator.
+
+De hardware assemblage proces is uitgelegd op deze pagina. Voor de software verwijzen we naar <a href="https://fri3dcamp.github.io/badge_2024/communicator/programming/">deze pagina</a>.
+
+&nbsp;<br>
+# HARDWARE
+
 ## Communicator eigenschappen
 
 De communicator bestaat uit:
@@ -99,3 +108,9 @@ De eerste byte geeft aan welke modificatietoetsen zijn ingedrukt:
 | 7   | RECHTSE GUI    |
 
 De tweede byte is gereserveerd, de overige 6 bytes kunnen een [HID-sleutelcode](https://gist.github.com/MightyPork/6da26e382a7ad91b5496ee55fdc73db2) bevatten.
+
+&nbsp;<br>
+# SOFTWARE (FIRMWARE)
+Normaal zou de firmware al op je LANA module geflashed moeten zijn. Echter, als het niet zou werken: je kan de firmware flashen aan de `badge flash station` in de soldeer area.
+
+Als je wil, kan je de firmware ook zelf flashen met je eigen laptop. Bijvoorbeeld mocht je de firmware willen updaten of zelf aanpassingen willen maken. De instructies vind je op <a href="https://fri3dcamp.github.io/badge_2024/communicator/programming/">deze pagina</a>.
