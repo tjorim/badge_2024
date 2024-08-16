@@ -129,7 +129,7 @@ Hardware design files and Firmware sources can be found in [the GitHub repositor
 
 &nbsp;<br>
 # SOFTWARE (FIRMWARE)
-Normally, the firmware on your LANA module is already pre-flashed. If it doesn't work: the firmware can be flashed through the badge flash station in the solder area.
+Normally, the firmware on your LANA module is already pre-flashed. If it doesn't work: the firmware can be flashed through the `badge flash station` in the solder area.
 
 If you want to update the firmware, or you want to flash your own, you can do so with your own laptop as shown on <a href="https://fri3dcamp.github.io/badge_2024/en/flamingo/programming/">this page</a>.
 
